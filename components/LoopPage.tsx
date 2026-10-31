@@ -27,7 +27,15 @@ function scoreText(score: number): string {
   return Number.isInteger(score) ? String(score) : score.toFixed(1);
 }
 
-export function LoopPage({ loop, runs }: { loop: LoopRecord; runs: RunRecord[] }) {
+export function LoopPage({
+  loop,
+  runs,
+  preview = false,
+}: {
+  loop: LoopRecord;
+  runs: RunRecord[];
+  preview?: boolean;
+}) {
   const [tab, setTab] = useState<Tab>("Progress log");
   const [paused, setPaused] = useState(loop.status === "paused");
   const [queued, setQueued] = useState(false);
@@ -240,6 +248,8 @@ export function LoopPage({ loop, runs }: { loop: LoopRecord; runs: RunRecord[] }
         </section>
       </div>
 
+      {preview ? null : (
+        <>
       <div className="tabs" role="tablist" aria-label="Loop sections">
         {tabs.map((name) => (
           <button key={name} type="button" role="tab" aria-selected={tab === name} onClick={() => setTab(name)}>
@@ -329,6 +339,8 @@ export function LoopPage({ loop, runs }: { loop: LoopRecord; runs: RunRecord[] }
           {drawer === "spec" ? <SpecPanel loop={loop} /> : <GoalsPanel loop={loop} />}
         </Drawer>
       ) : null}
+        </>
+      )}
     </div>
   );
 }

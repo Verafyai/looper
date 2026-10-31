@@ -52,8 +52,8 @@ LOOPER_DATA_MODE=private LOOPER_DATA_DIR=/path/to/loops npm start
 
 ## Routes
 
-- `/` public home
-- `/spec` public spec
+- `/` public home. Always sample mode. It does not read `LOOPER_DATA_DIR`.
+- `/spec` public spec format page
 - `/looper` dashboard
 - `/looper/one-offs` one-offs table
 - `/looper/{id}` loop page
