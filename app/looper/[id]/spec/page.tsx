@@ -9,7 +9,7 @@ export default async function SpecRoute({ params }: { params: Promise<{ id: stri
   const loop = data.loops.find((item) => item.id === id);
   if (!loop) notFound();
   return (
-    <div>
+    <div className="spec-page">
       <h1 className="page-kicker spec-kicker">{loop.name}</h1>
       <div className="spec-grid split">
         <SpecPanel loop={loop} />
