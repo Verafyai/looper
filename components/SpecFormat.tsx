@@ -1,21 +1,18 @@
 import Link from "next/link";
 
-const skeleton = `---
-front matter fields
----
+const sectionNames = [
+  "Objective",
+  "Evals",
+  "Sources and instructions",
+  "Quality control",
+  "Macros and recursion",
+  "Learning",
+  "Schedule",
+  "Roadmap",
+  "OKRs",
+];
 
-## Objective
-## Evals
-## Sources and instructions
-## Quality control
-## Macros and recursion
-## Learning
-## Schedule
-## Roadmap
-## OKRs`;
-
-const example = `---
-id: nightly-fix-loop
+const frontMatter = `id: nightly-fix-loop
 name: Nightly fix loop
 status: active
 schedule: "0 23 * * *"
@@ -34,53 +31,54 @@ needs_owner:
   - API keys and secrets
   - major package upgrades
 evals: [copy-eval, quality-eval]
-log: runs/nightly-fix/
----
+log: runs/nightly-fix/`;
 
-## Objective
-Ship up to 3 small, low risk fixes per product each night.
-Each fix must pass its check on the live site.
-
-## Evals
-- Build and tests pass in every PR, with the output pasted in.
-- The fix passes its own acceptance check on the live URL.
-- Screenshots at 1440 and 375 wide look right.
-- Weekly: copy eval and quality eval, each scored 0 to 100.
-
-## Sources and instructions
-1. Read the product file for each product in the inventory.
-2. Take the top backlog items that are low or medium risk and
-   do not need the owner. At most 3 per product.
-3. One item, one pull request. Small diffs. Never bundle.
-4. Run the build and tests. No passing output, no merge.
-5. Merge, deploy, then run the acceptance check live.
-6. Tick the item done (PR number, date) or mark it blocked.
-
-## Quality control
-- Follow the design guardrails file for every visual change.
-- Check copy changes against the copy eval rules, which come
-  from published landing page guidance.
-
-## Macros and recursion
-- per_product: pick items, open PR, gate, merge, verify
-- On failure: revert, log, mark blocked. Do not retry tonight.
-
-## Learning
-After each run, append to the log: what shipped, what failed,
-and why. Items that fail twice go to the owner list.
-
-## Schedule
-Nightly at 11 PM Pacific. A morning report loop reads the log.
-
-## Roadmap
-- Add a minimal CI check to each repo (needs owner).
-- Add tests where a repo has none.
-
-## OKRs
-O1: Every product page passes the copy and quality evals.
-  KR1: Every page scores 85 or more on the copy eval.
-  KR2: Every page scores 85 or more on the quality eval.
-  KR3: No failed fix stays live past the morning report.`;
+const exampleSections: Array<[string, string[]]> = [
+  ["Objective", ["Ship up to 3 small, low risk fixes per product each night.", "Each fix must pass its check on the live site."]],
+  [
+    "Evals",
+    [
+      "Build and tests pass in every PR, with the output pasted in.",
+      "The fix passes its own acceptance check on the live URL.",
+      "Screenshots at 1440 and 375 wide look right.",
+      "Weekly: copy eval and quality eval, each scored 0 to 100.",
+    ],
+  ],
+  [
+    "Sources and instructions",
+    [
+      "Read the product file for each product in the inventory.",
+      "Take the top backlog items that are low or medium risk and do not need the owner. At most 3 per product.",
+      "One item, one pull request. Small diffs. Never bundle.",
+      "Run the build and tests. No passing output, no merge.",
+      "Merge, deploy, then run the acceptance check live.",
+      "Tick the item done (PR number, date) or mark it blocked.",
+    ],
+  ],
+  [
+    "Quality control",
+    [
+      "Follow the design guardrails file for every visual change.",
+      "Check copy changes against the copy eval rules, which come from published landing page guidance.",
+    ],
+  ],
+  [
+    "Macros and recursion",
+    ["per_product: pick items, open PR, gate, merge, verify.", "On failure: revert, log, mark blocked. Do not retry tonight."],
+  ],
+  ["Learning", ["After each run, append to the log: what shipped, what failed, and why. Items that fail twice go to the owner list."]],
+  ["Schedule", ["Nightly at 11 PM Pacific. A morning report loop reads the log."]],
+  ["Roadmap", ["Add a minimal CI check to each repo (needs owner).", "Add tests where a repo has none."]],
+  [
+    "OKRs",
+    [
+      "O1: Every product page passes the copy and quality evals.",
+      "KR1: Every page scores 85 or more on the copy eval.",
+      "KR2: Every page scores 85 or more on the quality eval.",
+      "KR3: No failed fix stays live past the morning report.",
+    ],
+  ],
+];
 
 const fields: Array<[string, string, string]> = [
   ["id", "Yes", "Short, stable slug. Never changes, even when the name does."],
@@ -131,9 +129,16 @@ export function SpecFormat() {
           Name the file after the loop, such as <code>weekly-site-audit.loop.md</code>. One loop per file. Keep the
           files in one folder. That folder is your bank.
         </p>
-        <pre className="spec-code" tabIndex={0}>
-          <code>{skeleton}</code>
-        </pre>
+        <div className="file-skeleton" aria-label="Shape of a loop spec file">
+          <p className="part-n">Front matter fields</p>
+          <ol className="steps">
+            {sectionNames.map((name) => (
+              <li key={name} className="step-chip">
+                {name}
+              </li>
+            ))}
+          </ol>
+        </div>
 
         <h2 id="fields">Front matter fields</h2>
         <p>The first 4 fields are required. The rest are optional.</p>
@@ -191,9 +196,22 @@ export function SpecFormat() {
           This is a trimmed copy of a loop I run each night to fix small issues on my sites. Product names, repo names
           and private details are removed.
         </p>
-        <pre className="spec-code" tabIndex={0}>
-          <code>{example}</code>
-        </pre>
+        <div className="example-file">
+          <h3>Front matter fields</h3>
+          <pre className="spec-code" tabIndex={0}>
+            <code>{frontMatter}</code>
+          </pre>
+          {exampleSections.map(([title, lines]) => (
+            <section key={title}>
+              <h3>{title}</h3>
+              <ul>
+                {lines.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
         <p>To try it, copy the skeleton into a file and fill it in for one job you already run. Run it by hand once before you put it on a schedule.</p>
         <p>
           <Link className="btn btn-primary" href="/#bank">

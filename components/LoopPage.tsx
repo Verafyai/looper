@@ -132,11 +132,10 @@ export function LoopPage({
       <div className="split split-chart">
         <section data-panel="" className="spec-block">
           <div className="chart-head">
-            <div>
-              <h2>Score over time</h2>
-              <p className="section-note">Composite of the loop KPIs, one point per run</p>
-            </div>
-            <div>
+            <h2>
+              Score over time <span className="section-note">Composite of the loop KPIs, one point per run</span>
+            </h2>
+            <div className="chart-scoreline">
               <div className="card-score">{loop.score == null ? "no data" : scoreText(loop.score)}</div>
               <div className={sinceClass}>{loop.deltaSinceStartLabel}</div>
             </div>

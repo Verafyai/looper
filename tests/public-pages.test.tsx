@@ -32,6 +32,8 @@ describe("public pages", () => {
   it("has no em dashes, en dashes, or the personal site domain", () => {
     expect(home).not.toMatch(banned);
     expect(spec).not.toMatch(banned);
+    const specText = spec.replace(/<[^>]+>/g, "\n");
+    expect(specText).not.toMatch(/(^|\n)\s*#{1,4} |\*\*/);
     expect(spec.match(/<h2|<h3/g)?.length).toBeGreaterThanOrEqual(3);
   });
 });
