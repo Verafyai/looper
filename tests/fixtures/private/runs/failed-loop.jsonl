@@ -1,0 +1,2 @@
+{"loop_id":"failed-loop","n":1,"started_at":"2026-10-29T15:00:00.000Z","duration_s":100,"cost_usd":2,"status":"failed","kpis":{"quality":10},"score":10,"post":{"headline":"First failure","summary":"The check failed.","changed":[],"suggested":[]}}
+{"loop_id":"failed-loop","n":2,"started_at":"2026-10-30T15:00:00.000Z","duration_s":100,"cost_usd":2,"status":"failed","kpis":{"quality":10},"score":10,"post":{"headline":"Second failure","summary":"The check failed again.","changed":[],"suggested":[]}}

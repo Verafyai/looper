@@ -1,0 +1,250 @@
+[
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 1,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77
+    },
+    "score": 77,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77 → 77"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 2,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.6
+    },
+    "score": 77.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77 → 77.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 3,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.6
+    },
+    "score": 77.6,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.6 → 77.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 4,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.5
+    },
+    "score": 77.5,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.6 → 77.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 5,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.6
+    },
+    "score": 77.6,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.5 → 77.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 6,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.2
+    },
+    "score": 78.2,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.6 → 78.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 7,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.7
+    },
+    "score": 78.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 7",
+      "summary": "This sample post records run 7 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.2 → 78.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-metrics-email",
+    "n": 8,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.7
+    },
+    "score": 78.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Weekly metrics email",
+      "summary": "This sample post records run 8 for Weekly metrics email. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-metrics-email/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.7 → 78.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

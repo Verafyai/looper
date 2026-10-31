@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "event-scan",
+    "n": 71,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73
+    },
+    "score": 73,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 71",
+      "summary": "This sample post records run 71 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/71"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73 → 73"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 72,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.7
+    },
+    "score": 73.7,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 72",
+      "summary": "This sample post records run 72 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/72"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73 → 73.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 73,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.9
+    },
+    "score": 73.9,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 73",
+      "summary": "This sample post records run 73 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/73"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.7 → 73.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 74,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.9
+    },
+    "score": 73.9,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 74",
+      "summary": "This sample post records run 74 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/74"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.9 → 73.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 75,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.2
+    },
+    "score": 74.2,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 75",
+      "summary": "This sample post records run 75 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/75"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.9 → 74.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 76,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75
+    },
+    "score": 75,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 76",
+      "summary": "This sample post records run 76 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/76"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.2 → 75"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 77,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75.7
+    },
+    "score": 75.7,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 77",
+      "summary": "This sample post records run 77 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/77"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75 → 75.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 78,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75.8
+    },
+    "score": 75.8,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 78",
+      "summary": "This sample post records run 78 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/78"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75.7 → 75.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 79,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75.8
+    },
+    "score": 75.8,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 79",
+      "summary": "This sample post records run 79 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/79"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75.8 → 75.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 80,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 76.2
+    },
+    "score": 76.2,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 80",
+      "summary": "This sample post records run 80 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/80"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75.8 → 76.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 81,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77
+    },
+    "score": 77,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 81",
+      "summary": "This sample post records run 81 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/81"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76.2 → 77"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 82,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.6
+    },
+    "score": 77.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 82",
+      "summary": "This sample post records run 82 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/82"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77 → 77.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 83,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.7
+    },
+    "score": 77.7,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 83",
+      "summary": "This sample post records run 83 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/83"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.6 → 77.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 84,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78
+    },
+    "score": 78,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 84",
+      "summary": "This sample post records run 84 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/84"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.7 → 78"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 85,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78
+    },
+    "score": 78,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 85",
+      "summary": "This sample post records run 85 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/85"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78 → 78"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "event-scan",
+    "n": 86,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78
+    },
+    "score": 78,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Local events scan",
+      "summary": "This sample post records run 86 for Local events scan. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/event-scan/runs/86"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78 → 78"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 25,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 83
+    },
+    "score": 83,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 25",
+      "summary": "This sample post records run 25 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/25"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83 → 83"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 26,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.7
+    },
+    "score": 83.7,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 26",
+      "summary": "This sample post records run 26 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/26"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83 → 83.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 27,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.9
+    },
+    "score": 83.9,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 27",
+      "summary": "This sample post records run 27 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.7 → 83.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 28,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.9
+    },
+    "score": 83.9,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 28",
+      "summary": "This sample post records run 28 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.9 → 83.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 29,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.2
+    },
+    "score": 84.2,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 29",
+      "summary": "This sample post records run 29 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/29"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.9 → 84.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 30,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85
+    },
+    "score": 85,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 30",
+      "summary": "This sample post records run 30 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/30"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.2 → 85"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 31,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.7
+    },
+    "score": 85.7,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 31",
+      "summary": "This sample post records run 31 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/31"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85 → 85.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 32,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.8
+    },
+    "score": 85.8,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 32",
+      "summary": "This sample post records run 32 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/32"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.7 → 85.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 33,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.8
+    },
+    "score": 85.8,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 33",
+      "summary": "This sample post records run 33 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/33"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.8 → 85.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 34,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.2
+    },
+    "score": 86.2,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 34",
+      "summary": "This sample post records run 34 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/34"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.8 → 86.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 35,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87
+    },
+    "score": 87,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 35",
+      "summary": "This sample post records run 35 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/35"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.2 → 87"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 36,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.6
+    },
+    "score": 87.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 36",
+      "summary": "This sample post records run 36 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/36"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87 → 87.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 37,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.7
+    },
+    "score": 87.7,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 37",
+      "summary": "This sample post records run 37 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/37"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.6 → 87.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 38,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88
+    },
+    "score": 88,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 38",
+      "summary": "This sample post records run 38 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/38"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.7 → 88"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 39,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88
+    },
+    "score": 88,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 39",
+      "summary": "This sample post records run 39 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/39"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88 → 88"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "broken-link-sweep",
+    "n": 40,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88
+    },
+    "score": 88,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Broken link sweep",
+      "summary": "This sample post records run 40 for Broken link sweep. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/broken-link-sweep/runs/40"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88 → 88"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

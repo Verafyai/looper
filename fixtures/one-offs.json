@@ -1,0 +1,86 @@
+[
+  {
+    "id": "renew-domain",
+    "reminder": "Renew domain",
+    "due": "Nov 12, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "book-venue",
+    "reminder": "Book venue for meetup",
+    "due": "Nov 8, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "cooler-ice",
+    "reminder": "Cooler and ice check",
+    "due": "Nov 8, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "rotate-tokens",
+    "reminder": "Rotate API tokens",
+    "due": "Nov 3, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "export-metrics",
+    "reminder": "Export monthly metrics",
+    "due": "Nov 2, 2026",
+    "status": "Due soon"
+  },
+  {
+    "id": "review-paused",
+    "reminder": "Review paused loops",
+    "due": "Nov 5, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "oncall-roster",
+    "reminder": "Update the on-call roster",
+    "due": "Nov 15, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "backup-restore",
+    "reminder": "Check backup restore",
+    "due": "Nov 6, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "speaker-confirmations",
+    "reminder": "Send speaker confirmations",
+    "due": "Nov 9, 2026",
+    "status": "Waiting"
+  },
+  {
+    "id": "name-badges",
+    "reminder": "Order name badges",
+    "due": "Nov 7, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "expense-receipts",
+    "reminder": "File expense receipts",
+    "due": "Nov 4, 2026",
+    "status": "Due soon"
+  },
+  {
+    "id": "error-tracker",
+    "reminder": "Renew the error tracker",
+    "due": "Dec 1, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "retro",
+    "reminder": "Schedule the retro",
+    "due": "Nov 10, 2026",
+    "status": "Open"
+  },
+  {
+    "id": "catering-count",
+    "reminder": "Confirm catering count",
+    "due": "Nov 8, 2026",
+    "status": "Open"
+  }
+]

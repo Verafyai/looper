@@ -1,0 +1,467 @@
+[
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 1,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 76.4
+    },
+    "score": 76.4,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76.4 → 76.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 2,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77
+    },
+    "score": 77,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76.4 → 77"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 3,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.2
+    },
+    "score": 77.2,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77 → 77.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 4,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.1
+    },
+    "score": 77.1,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.2 → 77.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 5,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.3
+    },
+    "score": 77.3,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.1 → 77.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 6,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78
+    },
+    "score": 78,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.3 → 78"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 7,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.6
+    },
+    "score": 78.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 7",
+      "summary": "This sample post records run 7 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78 → 78.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 8,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.7
+    },
+    "score": 78.7,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 8",
+      "summary": "This sample post records run 8 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.6 → 78.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 9,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.6
+    },
+    "score": 78.6,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 9",
+      "summary": "This sample post records run 9 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/9"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.7 → 78.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 10,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.9
+    },
+    "score": 78.9,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 10",
+      "summary": "This sample post records run 10 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/10"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.6 → 78.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 11,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.6
+    },
+    "score": 79.6,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 11",
+      "summary": "This sample post records run 11 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/11"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.9 → 79.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 12,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.1
+    },
+    "score": 80.1,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 12",
+      "summary": "This sample post records run 12 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/12"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.6 → 80.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 13,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.1
+    },
+    "score": 80.1,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 13",
+      "summary": "This sample post records run 13 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/13"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.1 → 80.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 14,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.4
+    },
+    "score": 80.4,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 14",
+      "summary": "This sample post records run 14 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/14"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.1 → 80.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "partner-follow-ups",
+    "n": 15,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.4
+    },
+    "score": 80.4,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Partner follow-ups",
+      "summary": "This sample post records run 15 for Partner follow-ups. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/partner-follow-ups/runs/15"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.4 → 80.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

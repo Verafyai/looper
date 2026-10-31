@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "job-digests",
+    "n": 20,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.8
+    },
+    "score": 67.8,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 20",
+      "summary": "This sample post records run 20 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/20"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.8 → 67.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 21,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.5
+    },
+    "score": 68.5,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 21",
+      "summary": "This sample post records run 21 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/21"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.8 → 68.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 22,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.6
+    },
+    "score": 68.6,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 22",
+      "summary": "This sample post records run 22 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/22"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.5 → 68.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 23,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.5
+    },
+    "score": 68.5,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 23",
+      "summary": "This sample post records run 23 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/23"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.6 → 68.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 24,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.8
+    },
+    "score": 68.8,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 24",
+      "summary": "This sample post records run 24 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/24"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.5 → 68.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 25,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 69.5
+    },
+    "score": 69.5,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 25",
+      "summary": "This sample post records run 25 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/25"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.8 → 69.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 26,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 70.1
+    },
+    "score": 70.1,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 26",
+      "summary": "This sample post records run 26 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/26"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 69.5 → 70.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 27,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 70.2
+    },
+    "score": 70.2,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 27",
+      "summary": "This sample post records run 27 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 70.1 → 70.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 28,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 70.1
+    },
+    "score": 70.1,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 28",
+      "summary": "This sample post records run 28 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 70.2 → 70.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 29,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 70.4
+    },
+    "score": 70.4,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 29",
+      "summary": "This sample post records run 29 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/29"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 70.1 → 70.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 30,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 71.2
+    },
+    "score": 71.2,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 30",
+      "summary": "This sample post records run 30 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/30"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 70.4 → 71.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 31,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 71.7
+    },
+    "score": 71.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 31",
+      "summary": "This sample post records run 31 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/31"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 71.2 → 71.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 32,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 71.7
+    },
+    "score": 71.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 32",
+      "summary": "This sample post records run 32 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/32"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 71.7 → 71.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 33,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 72
+    },
+    "score": 72,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 33",
+      "summary": "This sample post records run 33 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/33"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 71.7 → 72"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 34,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 72
+    },
+    "score": 72,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 34",
+      "summary": "This sample post records run 34 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/34"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 72 → 72"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "job-digests",
+    "n": 35,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 72
+    },
+    "score": 72,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Morning job digests",
+      "summary": "This sample post records run 35 for Morning job digests. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/job-digests/runs/35"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 72 → 72"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "changelog-digest",
+    "n": 13,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82
+    },
+    "score": 82,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 13",
+      "summary": "This sample post records run 13 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/13"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82 → 82"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 14,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.6
+    },
+    "score": 82.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 14",
+      "summary": "This sample post records run 14 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/14"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82 → 82.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 15,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.8
+    },
+    "score": 82.8,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 15",
+      "summary": "This sample post records run 15 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/15"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.6 → 82.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 16,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.7
+    },
+    "score": 82.7,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 16",
+      "summary": "This sample post records run 16 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/16"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.8 → 82.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 17,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.9
+    },
+    "score": 82.9,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 17",
+      "summary": "This sample post records run 17 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/17"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.7 → 82.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 18,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.6
+    },
+    "score": 83.6,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 18",
+      "summary": "This sample post records run 18 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/18"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.9 → 83.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 19,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.2
+    },
+    "score": 84.2,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 19",
+      "summary": "This sample post records run 19 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/19"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.6 → 84.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 20,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.3
+    },
+    "score": 84.3,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 20",
+      "summary": "This sample post records run 20 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/20"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.2 → 84.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 21,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.2
+    },
+    "score": 84.2,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 21",
+      "summary": "This sample post records run 21 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/21"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.3 → 84.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 22,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.5
+    },
+    "score": 84.5,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 22",
+      "summary": "This sample post records run 22 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/22"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.2 → 84.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 23,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.2
+    },
+    "score": 85.2,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 23",
+      "summary": "This sample post records run 23 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/23"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.5 → 85.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 24,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.7
+    },
+    "score": 85.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 24",
+      "summary": "This sample post records run 24 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/24"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.2 → 85.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 25,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 85.7
+    },
+    "score": 85.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 25",
+      "summary": "This sample post records run 25 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/25"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.7 → 85.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 26,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86
+    },
+    "score": 86,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 26",
+      "summary": "This sample post records run 26 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/26"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 85.7 → 86"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 27,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86
+    },
+    "score": 86,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 27",
+      "summary": "This sample post records run 27 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86 → 86"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "changelog-digest",
+    "n": 28,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86
+    },
+    "score": 86,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Changelog digest",
+      "summary": "This sample post records run 28 for Changelog digest. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/changelog-digest/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86 → 86"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]
