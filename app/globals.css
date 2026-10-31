@@ -634,6 +634,31 @@ button.tile { width: 100%; }
     padding-left: max(20px, calc((100% - 1360px) / 2 + 20px));
     padding-right: max(20px, calc((100% - 1360px) / 2 + 20px));
   }
+  .app-header { padding-top: 18px; padding-bottom: 18px; }
+  .dashboard { padding-top: 36px; }
+  .dashboard .page-kicker { margin-top: 16px; }
+  .dashboard .page-title { font-size: 52px; line-height: 1.05; margin: 12px 0 16px; }
+  .dashboard .lede { font-size: 16px; display: block; margin-bottom: 8px; }
+  .dashboard .tiles { margin: 26px 0 18px; gap: 14px; }
+  .dashboard .tile { min-height: 118px; padding: 18px 16px 14px; }
+  .dashboard .tile-value { font-size: 34px; }
+  .dashboard .filters { margin: 10px 0 20px; }
+  .dashboard .section-head { margin: 16px 0 12px; }
+  .dashboard .section-head h2 { font-size: 22px; }
+  .dashboard .cards { gap: 16px; }
+  .dashboard [data-section="attention"] .loop-card { min-height: 424px; padding: 18px 16px 16px; gap: 12px; }
+  .dashboard [data-section="running"] .loop-card { min-height: 352px; padding: 16px; gap: 10px; }
+  .dashboard .show-more { margin-top: 20px; margin-bottom: 4px; }
+  .dashboard ~ .footer { margin-top: 28px; }
+  .loop-page { padding-top: 46px; }
+  .loop-page .loop-title { font-size: 40px; margin-bottom: 8px; }
+  .loop-page .tiles { margin-top: 18px; margin-bottom: 16px; }
+  .loop-page .tile { min-height: 104px; }
+  .loop-page .split-chart > section { min-height: 740px; }
+  .loop-page .split-panels > section { min-height: 300px; }
+  .spec-page { padding-top: 36px; }
+  .spec-page .spec-kicker { margin-top: 12px; margin-bottom: 18px; }
+  .spec-page .spec-block { min-height: 860px; }
 }
 
 @media (max-width: 767px) {
