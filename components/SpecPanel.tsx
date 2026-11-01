@@ -70,6 +70,9 @@ export function SpecPanel({ loop }: { loop: LoopRecord }) {
           </ul>
         )}
       </div>
+      {spec.outputs !== undefined ? <SpecList id="outputs" title="Outputs" items={spec.outputs} /> : null}
+      {spec.approvals !== undefined ? <SpecList id="approvals" title="Approvals (needs Rex)" items={spec.approvals} /> : null}
+      {spec.guardrails !== undefined ? <SpecList id="guardrails" title="Guardrails" items={spec.guardrails} /> : null}
       <div data-spec-section="runtime">
         <h3>Runtime</h3>
         <dl className="kv">
@@ -77,6 +80,18 @@ export function SpecPanel({ loop }: { loop: LoopRecord }) {
             <dt>Schedule</dt>
             <dd>{spec.runtime.schedule}</dd>
           </div>
+          {spec.lastRun !== undefined ? (
+            <div>
+              <dt>Last run</dt>
+              <dd>{spec.lastRun}</dd>
+            </div>
+          ) : null}
+          {spec.owner !== undefined ? (
+            <div>
+              <dt>Owner</dt>
+              <dd>{spec.owner}</dd>
+            </div>
+          ) : null}
           <div>
             <dt>Time limit</dt>
             <dd>{spec.runtime.timeLimit}</dd>
@@ -92,5 +107,22 @@ export function SpecPanel({ loop }: { loop: LoopRecord }) {
         </dl>
       </div>
     </section>
+  );
+}
+
+function SpecList({ id, title, items }: { id: string; title: string; items: string[] }) {
+  return (
+    <div data-spec-section={id}>
+      <h3>{title}</h3>
+      {items.length === 0 ? (
+        <p>no data</p>
+      ) : (
+        <ul>
+          {items.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }

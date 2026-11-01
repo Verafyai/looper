@@ -10,6 +10,7 @@ import type {
   Goal,
   LoopRecord,
   OneOff,
+  RetiredLoop,
   RunRecord,
   RunStatus,
   SpecContent,
@@ -253,6 +254,37 @@ function fixFor(reason: BlockReason, result: string | null): string {
   return "Retry";
 }
 
+function scopeOf(text: string | undefined): SpecContent["scope"] {
+  const pick = (label: string) => {
+    for (const line of bullets(text)) {
+      const match = line.match(new RegExp(`^${label}\\s*:\\s*(.+)$`, "i"));
+      if (match) return match[1].trim();
+    }
+    return noData();
+  };
+  return { products: pick("Products"), allowed: pick("Allowed changes"), notAllowed: pick("Not allowed") };
+}
+
+function loadRetired(dir: string): RetiredLoop[] {
+  const retiredDir = path.join(dir, "_retired");
+  if (!fs.existsSync(retiredDir)) return [];
+  return fs
+    .readdirSync(retiredDir)
+    .filter((file) => file.endsWith(".md"))
+    .map((file) => {
+      const { data, body } = splitFrontMatter(readText(path.join(retiredDir, file)));
+      const section = sectionsOf(body);
+      const history = bullets(section["run history and notes"]);
+      return {
+        id: asString(data.id) ?? file.replace(/\.md$/, ""),
+        name: asString(data.name) ?? file.replace(/\.md$/, ""),
+        purpose: plain(section.objective),
+        note: history.at(-1) ?? noData(),
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
 function blockerTitle(reason: BlockReason, result: string | null): string {
   if (result === "expired_login") return "Account session expired";
   if (result === "budget_hit") return "Budget hit";
@@ -265,7 +297,7 @@ function blockerTitle(reason: BlockReason, result: string | null): string {
 export function loadPrivate(dir: string): Dataset {
   const emptySummary: Summary = { snapshotLabel: noData(), runsToday: Number.NaN, costWeek: Number.NaN };
   if (!dir || !fs.existsSync(dir)) {
-    return { mode: "private", loops: [], runsByLoop: {}, oneOffs: [], summary: emptySummary };
+    return { mode: "private", loops: [], runsByLoop: {}, oneOffs: [], summary: emptySummary, retired: [] };
   }
 
   let status: StatusFile | null = null;
@@ -333,6 +365,8 @@ export function loadPrivate(dir: string): Dataset {
     const successRate = runs.length > 0 ? `${Math.round((successes / runs.length) * 100)}%` : noData();
 
     const created = asString(data.created);
+    const lastRaw = entry.last_run != null ? String(entry.last_run) : data.last_run != null ? String(data.last_run) : null;
+    const lastRunLabel = lastRaw ? (lastRaw.includes("T") ? formatSnapshot(lastRaw) : lastRaw) : "never run";
     const initiatedLabel = created ? formatSnapshot(created.includes("T") ? created : `${created}T19:00:00.000Z`).split(",")[0] : noData();
     const scheduleWords = asString(schedule.words) ?? noData();
     const nextRaw = asString(entry.next_run) ?? asString(entry.nextRun);
@@ -393,15 +427,18 @@ export function loadPrivate(dir: string): Dataset {
     const spec: SpecContent = {
       version: asString(data.spec_version) ?? noData(),
       editedLabel: asString(data.edited) ?? created ?? noData(),
-      reconstructed: data.reconstructed === true,
+      reconstructed: data.reconstructed === true || asString(data.prompt_source) === "reconstructed",
       purpose: plain(section.objective),
-      scope: {
-        products: noData(),
-        allowed: noData(),
-        notAllowed: noData(),
-      },
-      steps: bullets(section.roadmap),
+      scope: scopeOf(section.scope),
+      steps: bullets(section.steps).length ? bullets(section.steps) : bullets(section.roadmap),
       inputs: bullets(section["sources and instructions"]),
+      owner: asString(data.owner) ?? noData(),
+      lastRun: lastRunLabel,
+      outputs: bullets(section.outputs),
+      approvals: bullets(section["approvals (needs rex)"]).length
+        ? bullets(section["approvals (needs rex)"])
+        : bullets(section.approvals),
+      guardrails: bullets(section.guardrails),
       runtime: {
         schedule: scheduleWords,
         timeLimit: asString(data.time_limit) ?? noData(),
@@ -454,7 +491,7 @@ export function loadPrivate(dir: string): Dataset {
       delta14dLabel,
       deltaSinceStartLabel: deltaSince == null ? noData() : `${deltaSince > 0 ? "+" : ""}${deltaSince.toFixed(1)} since start`,
       kpiChips: scoreState === "no-goals" ? [] : chips,
-      runsMeta: runs.length > 0 ? `${runs.length} · since ${initiatedLabel}` : "No runs yet",
+      runsMeta: runs.length > 0 ? `${runs.length} · since ${initiatedLabel}` : lastRaw ? `Last run ${lastRunLabel} (no run log yet)` : "No runs yet",
       costMeta:
         avgCost != null && avgDuration != null
           ? `${formatUsd(avgCost)}/run · ${formatDuration(avgDuration)}`
@@ -473,7 +510,7 @@ export function loadPrivate(dir: string): Dataset {
           : [],
       stats: {
         initiated: initiatedLabel,
-        runs: runs.length > 0 ? String(runs.length) : "No runs yet",
+        runs: runs.length > 0 ? String(runs.length) : lastRaw ? `Last run ${lastRunLabel}` : "No runs yet",
         successRate,
         avgDuration: avgDuration == null ? noData() : formatDuration(avgDuration),
         costPerRun: avgCost == null ? noData() : formatUsd(avgCost),
@@ -497,5 +534,5 @@ export function loadPrivate(dir: string): Dataset {
   }
 
   loops.sort((a, b) => a.name.localeCompare(b.name));
-  return { mode: "private", loops, runsByLoop, oneOffs, summary };
+  return { mode: "private", loops, runsByLoop, oneOffs, summary, retired: loadRetired(dir) };
 }

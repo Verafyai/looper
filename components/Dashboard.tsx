@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { LoopRecord } from "@/lib/types";
+import type { LoopRecord, RetiredLoop } from "@/lib/types";
 import { cardStatusOf, type LoopSummary } from "@/lib/status";
 import { Drawer } from "./Drawer";
 import { GoalsPanel } from "./GoalsPanel";
@@ -32,17 +32,22 @@ export function Dashboard({
   oneOffCount,
   runsToday,
   costWeek,
+  retired = [],
+  mode = "sample",
 }: {
   loops: LoopRecord[];
   counts: LoopSummary;
   oneOffCount: number;
   runsToday: number;
   costWeek: number;
+  retired?: RetiredLoop[];
+  mode?: "sample" | "private";
 }) {
   const [pill, setPill] = useState<Pill>("all");
   const [tile, setTile] = useState<TileFilter>(null);
   const [query, setQuery] = useState("");
-  const [expanded, setExpanded] = useState(false);
+  // Private mode lists every loop, paused included. Sample mode stays collapsed.
+  const [expanded, setExpanded] = useState(mode === "private");
   const [drawer, setDrawer] = useState<{ id: string; kind: "spec" | "goals" } | null>(null);
 
   const attention = useMemo(
@@ -97,7 +102,11 @@ export function Dashboard({
     <div className="dashboard">
       <p className="page-kicker">LOOPER</p>
       <h1 className="page-title">Your loops</h1>
-      <p className="lede">Every agent loop that is running: health, score, schedule and cost, at a glance.</p>
+      <p className="lede">
+        {mode === "private"
+          ? "Every agent loop, running or paused: health, score, schedule and cost, at a glance."
+          : "Every agent loop that is running: health, score, schedule and cost, at a glance."}
+      </p>
 
       <div data-testid="summary-tiles" className="tiles">
         <div data-tile="loops" data-panel="" className="tile">
@@ -220,6 +229,24 @@ export function Dashboard({
       </section>
 
       {anyVisible ? null : <p className="empty">No loops match.</p>}
+
+      {mode === "private" && retired.length > 0 && pill === "all" && tile === null && query.trim() === "" ? (
+        <section data-section="retired">
+          <div className="section-head">
+            <h2>Retired</h2>
+            <p>Archived loops. Their routines are paused or removed; restore with tools/loop-edits.py restore.</p>
+          </div>
+          <ul className="retired-list">
+            {retired.map((item) => (
+              <li key={item.id} data-retired={item.id} data-panel="" className="retired-item">
+                <strong>{item.name}</strong>
+                <p>{item.purpose}</p>
+                <p className="muted">{item.note}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {drawer && drawerLoop ? (
         <Drawer testId={drawer.kind === "spec" ? "drawer-spec" : "drawer-goals"} title={drawerLoop.name} onClose={() => setDrawer(null)}>
