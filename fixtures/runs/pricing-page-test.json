@@ -1,0 +1,281 @@
+[
+  {
+    "loop_id": "pricing-page-test",
+    "n": 1,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.6
+    },
+    "score": 79.6,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.6 → 79.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 2,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.2
+    },
+    "score": 80.2,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.6 → 80.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 3,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.3
+    },
+    "score": 80.3,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.2 → 80.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 4,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.1
+    },
+    "score": 80.1,
+    "score_delta": -0.2,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.3 → 80.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 5,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.3
+    },
+    "score": 80.3,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.1 → 80.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 6,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81
+    },
+    "score": 81,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.3 → 81"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 7,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.5
+    },
+    "score": 81.5,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 7",
+      "summary": "This sample post records run 7 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81 → 81.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 8,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.5
+    },
+    "score": 81.5,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 8",
+      "summary": "This sample post records run 8 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.5 → 81.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "pricing-page-test",
+    "n": 9,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.4
+    },
+    "score": 81.4,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Latest sample post for Pricing page test",
+      "summary": "This sample post records run 9 for Pricing page test. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/pricing-page-test/runs/9"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.5 → 81.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

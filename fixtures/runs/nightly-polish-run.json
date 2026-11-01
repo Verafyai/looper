@@ -1,0 +1,1607 @@
+[
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 1,
+    "started_at": "2026-09-14T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78,
+      "copy": 61,
+      "facts": 79.4
+    },
+    "score": 78,
+    "score_delta": null,
+    "post": {
+      "headline": "Smoothed a heading on the Docs page",
+      "summary": "Run 1 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78 → 78"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 2,
+    "started_at": "2026-09-15T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.4,
+      "copy": 61.3,
+      "facts": 79.6
+    },
+    "score": 78.4,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Repointed a stale link in the writing index",
+      "summary": "Run 2 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78 → 78.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 3,
+    "started_at": "2026-09-16T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.7,
+      "copy": 61.6,
+      "facts": 79.7
+    },
+    "score": 78.7,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Shortened a button label on Explorer",
+      "summary": "Run 3 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.4 → 78.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 4,
+    "started_at": "2026-09-17T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.9,
+      "copy": 61.8,
+      "facts": 79.9
+    },
+    "score": 78.9,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Aligned the Insights hero with the type scale",
+      "summary": "Run 4 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.7 → 78.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 5,
+    "started_at": "2026-09-18T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.8,
+      "copy": 62,
+      "facts": 80
+    },
+    "score": 78.8,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Fixed a wrapping label on Forecast",
+      "summary": "Run 5 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.9 → 78.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 6,
+    "started_at": "2026-09-19T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.7,
+      "copy": 62,
+      "facts": 80
+    },
+    "score": 78.7,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Tightened spacing under the docs nav",
+      "summary": "Run 6 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.8 → 78.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 7,
+    "started_at": "2026-09-20T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.6,
+      "copy": 62,
+      "facts": 80
+    },
+    "score": 78.6,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Corrected a claim on the marketing site",
+      "summary": "Run 7 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.7 → 78.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 8,
+    "started_at": "2026-09-21T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.6,
+      "copy": 61.9,
+      "facts": 80
+    },
+    "score": 78.6,
+    "score_delta": 0,
+    "post": {
+      "headline": "Dropped an unused style from the docs layout",
+      "summary": "Run 8 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.6 → 78.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 9,
+    "started_at": "2026-09-22T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.8,
+      "copy": 61.9,
+      "facts": 80
+    },
+    "score": 78.8,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Clarified an empty state on Explorer",
+      "summary": "Run 9 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/9"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.6 → 78.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 10,
+    "started_at": "2026-09-23T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.1,
+      "copy": 61.9,
+      "facts": 80
+    },
+    "score": 79.1,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Refreshed the footer links on the marketing site",
+      "summary": "Run 10 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/10"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.8 → 79.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 11,
+    "started_at": "2026-09-24T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.6,
+      "copy": 62.1,
+      "facts": 80
+    },
+    "score": 79.6,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Smoothed a heading on the Docs page",
+      "summary": "Run 11 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/11"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.1 → 79.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 12,
+    "started_at": "2026-09-25T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80,
+      "copy": 62.4,
+      "facts": 80
+    },
+    "score": 80,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Repointed a stale link in the writing index",
+      "summary": "Run 12 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/12"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.6 → 80"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 13,
+    "started_at": "2026-09-26T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.2,
+      "copy": 62.7,
+      "facts": 80.1
+    },
+    "score": 80.2,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Shortened a button label on Explorer",
+      "summary": "Run 13 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/13"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80 → 80.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 14,
+    "started_at": "2026-09-27T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.3,
+      "copy": 63,
+      "facts": 80.2
+    },
+    "score": 80.3,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Aligned the Insights hero with the type scale",
+      "summary": "Run 14 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/14"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.2 → 80.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 15,
+    "started_at": "2026-09-28T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.2,
+      "copy": 63.3,
+      "facts": 80.3
+    },
+    "score": 80.2,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Fixed a wrapping label on Forecast",
+      "summary": "Run 15 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/15"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.3 → 80.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 16,
+    "started_at": "2026-09-29T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.1,
+      "copy": 63.6,
+      "facts": 80.5
+    },
+    "score": 80.1,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Tightened spacing under the docs nav",
+      "summary": "Run 16 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/16"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.2 → 80.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 17,
+    "started_at": "2026-09-30T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80,
+      "copy": 63.8,
+      "facts": 80.7
+    },
+    "score": 80,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Corrected a claim on the marketing site",
+      "summary": "Run 17 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/17"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.1 → 80"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 18,
+    "started_at": "2026-10-01T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80,
+      "copy": 63.9,
+      "facts": 80.8
+    },
+    "score": 80,
+    "score_delta": 0,
+    "post": {
+      "headline": "Dropped an unused style from the docs layout",
+      "summary": "Run 18 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/18"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80 → 80"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 19,
+    "started_at": "2026-10-02T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.3,
+      "copy": 63.8,
+      "facts": 81
+    },
+    "score": 80.3,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Clarified an empty state on Explorer",
+      "summary": "Run 19 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/19"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80 → 80.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 20,
+    "started_at": "2026-10-03T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "failed",
+    "kpis": {
+      "quality": 80.7,
+      "copy": 63.8,
+      "facts": 81.1
+    },
+    "score": 80.7,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Run stopped after a failed check",
+      "summary": "Run 20 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/20"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.3 → 80.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 21,
+    "started_at": "2026-10-04T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.1,
+      "copy": 63.8,
+      "facts": 81.2
+    },
+    "score": 81.1,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Smoothed a heading on the Docs page",
+      "summary": "Run 21 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/21"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.7 → 81.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 22,
+    "started_at": "2026-10-05T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.5,
+      "copy": 63.8,
+      "facts": 81.2
+    },
+    "score": 81.5,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Repointed a stale link in the writing index",
+      "summary": "Run 22 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/22"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.1 → 81.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 23,
+    "started_at": "2026-10-06T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.7,
+      "copy": 63.9,
+      "facts": 81.2
+    },
+    "score": 81.7,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Shortened a button label on Explorer",
+      "summary": "Run 23 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/23"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.5 → 81.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 24,
+    "started_at": "2026-10-07T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.7,
+      "copy": 64.1,
+      "facts": 81.2
+    },
+    "score": 81.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Aligned the Insights hero with the type scale",
+      "summary": "Run 24 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/24"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.7 → 81.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 25,
+    "started_at": "2026-10-08T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.6,
+      "copy": 64.4,
+      "facts": 81.2
+    },
+    "score": 81.6,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Fixed a wrapping label on Forecast",
+      "summary": "Run 25 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/25"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.7 → 81.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 26,
+    "started_at": "2026-10-09T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.4,
+      "copy": 64.7,
+      "facts": 81.2
+    },
+    "score": 81.4,
+    "score_delta": -0.2,
+    "post": {
+      "headline": "Tightened spacing under the docs nav",
+      "summary": "Run 26 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/26"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.6 → 81.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 27,
+    "started_at": "2026-10-10T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.4,
+      "copy": 65,
+      "facts": 81.2
+    },
+    "score": 81.4,
+    "score_delta": 0,
+    "post": {
+      "headline": "Corrected a claim on the marketing site",
+      "summary": "Run 27 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.4 → 81.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 28,
+    "started_at": "2026-10-11T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.5,
+      "copy": 65.3,
+      "facts": 81.2
+    },
+    "score": 81.5,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Dropped an unused style from the docs layout",
+      "summary": "Run 28 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.4 → 81.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 29,
+    "started_at": "2026-10-12T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.8,
+      "copy": 65.6,
+      "facts": 81.3
+    },
+    "score": 81.8,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Clarified an empty state on Explorer",
+      "summary": "Run 29 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/29"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.5 → 81.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 30,
+    "started_at": "2026-10-13T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.3,
+      "copy": 65.7,
+      "facts": 81.4
+    },
+    "score": 82.3,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Refreshed the footer links on the marketing site",
+      "summary": "Run 30 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/30"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.8 → 82.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 31,
+    "started_at": "2026-10-14T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.7,
+      "copy": 65.7,
+      "facts": 81.6
+    },
+    "score": 82.7,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Smoothed a heading on the Docs page",
+      "summary": "Run 31 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/31"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.3 → 82.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 32,
+    "started_at": "2026-10-15T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 83,
+      "copy": 65.7,
+      "facts": 81.7
+    },
+    "score": 83,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Repointed a stale link in the writing index",
+      "summary": "Run 32 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/32"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.7 → 83"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 33,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.1,
+      "copy": 65.7,
+      "facts": 81.9
+    },
+    "score": 83.1,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Shortened a button label on Explorer",
+      "summary": "Run 33 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/33"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83 → 83.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 34,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.8,
+      "copy": 65.6,
+      "facts": 82.1
+    },
+    "score": 81.8,
+    "score_delta": -1.3,
+    "post": {
+      "headline": "Aligned the Insights hero with the type scale",
+      "summary": "Run 34 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/34"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.1 → 81.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 35,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.9,
+      "copy": 65.7,
+      "facts": 82.2
+    },
+    "score": 82.9,
+    "score_delta": 1.1,
+    "post": {
+      "headline": "Fixed a wrapping label on Forecast",
+      "summary": "Run 35 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/35"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.8 → 82.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 36,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.8,
+      "copy": 65.8,
+      "facts": 82.3
+    },
+    "score": 82.8,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Tightened spacing under the docs nav",
+      "summary": "Run 36 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/36"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.9 → 82.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 37,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 82.8,
+      "copy": 66.1,
+      "facts": 82.4
+    },
+    "score": 82.8,
+    "score_delta": 0,
+    "post": {
+      "headline": "Corrected a claim on the marketing site",
+      "summary": "Run 37 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/37"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.8 → 82.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 38,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 83,
+      "copy": 66.4,
+      "facts": 82.4
+    },
+    "score": 83,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Dropped an unused style from the docs layout",
+      "summary": "Run 38 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/38"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82.8 → 83"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 39,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.4,
+      "copy": 66.7,
+      "facts": 82.4
+    },
+    "score": 83.4,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Clarified an empty state on Explorer",
+      "summary": "Run 39 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/39"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83 → 83.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 40,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 83.8,
+      "copy": 67.1,
+      "facts": 82.4
+    },
+    "score": 83.8,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Refreshed the footer links on the marketing site",
+      "summary": "Run 40 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/40"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.4 → 83.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 41,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.2,
+      "copy": 67.3,
+      "facts": 82.4
+    },
+    "score": 84.2,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Smoothed a heading on the Docs page",
+      "summary": "Run 41 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/41"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 83.8 → 84.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 42,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.5,
+      "copy": 67.5,
+      "facts": 82.4
+    },
+    "score": 84.5,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Repointed a stale link in the writing index",
+      "summary": "Run 42 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/42"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.2 → 84.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 43,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.5,
+      "copy": 67.6,
+      "facts": 82.4
+    },
+    "score": 84.5,
+    "score_delta": 0,
+    "post": {
+      "headline": "Shortened a button label on Explorer",
+      "summary": "Run 43 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/43"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.5 → 84.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 44,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.5,
+      "copy": 67.6,
+      "facts": 82.4
+    },
+    "score": 84.5,
+    "score_delta": 0,
+    "post": {
+      "headline": "Aligned the Insights hero with the type scale",
+      "summary": "Run 44 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/44"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.5 → 84.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 45,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 1320,
+    "cost_usd": 1.36,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.3,
+      "copy": 67.5,
+      "facts": 82.5
+    },
+    "score": 84.3,
+    "score_delta": -0.2,
+    "post": {
+      "headline": "Fixed a wrapping label on Forecast",
+      "summary": "Run 45 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/45"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.5 → 84.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 46,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 1260,
+    "cost_usd": 1.4,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.5,
+      "copy": 67.5,
+      "facts": 82.7
+    },
+    "score": 84.5,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Tightened spacing under the docs nav",
+      "summary": "Run 46 shipped a small, checked change on the docs or the marketing site. The loop recorded the quality score, the copy score, and the fact score for this night.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/46"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.3 → 84.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 47,
+    "started_at": "2026-10-30T06:01:00.000Z",
+    "duration_s": 1440,
+    "cost_usd": 1.46,
+    "status": "reverted",
+    "kpis": {
+      "quality": 84.3,
+      "copy": 67.2,
+      "facts": 83
+    },
+    "score": 84.3,
+    "score_delta": -0.2,
+    "post": {
+      "headline": "One change reverted after a failed check",
+      "summary": "A header spacing change on the Docs page failed the layout check at 375px and was reverted automatically. Two other changes shipped. The loop logged the failure and lowered its confidence in layout edits for tomorrow.",
+      "changed": [
+        {
+          "text": "Logged the nightly notes",
+          "url": "/looper/nightly-polish-run/runs/47"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.5 → 84.3"
+        },
+        {
+          "text": "Copy 67.0 → 67.2"
+        },
+        {
+          "text": "Facts 83.0 → 83.0"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "nightly-polish-run",
+    "n": 48,
+    "started_at": "2026-10-31T06:02:00.000Z",
+    "duration_s": 1260,
+    "cost_usd": 1.38,
+    "status": "ok",
+    "kpis": {
+      "quality": 84.9,
+      "copy": 68,
+      "facts": 83
+    },
+    "score": 84.9,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Tightened the Explorer result card and fixed two broken links",
+      "summary": "Shipped three small changes across the docs and the marketing site. The Explorer card now shows one headline number, the forecast page label was corrected, and two dead links on the writing index were repointed. All three passed their checks before merge.",
+      "changed": [
+        {
+          "text": "Explorer: one headline number, PR 212",
+          "url": "/looper/nightly-polish-run/runs/48"
+        },
+        {
+          "text": "Forecast: rating tiers, PR 87",
+          "url": "/looper/nightly-polish-run/runs/48"
+        },
+        {
+          "text": "the marketing site: 2 links, commit 4e1a",
+          "url": "/looper/nightly-polish-run/runs/48"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 84.3 → 84.9"
+        },
+        {
+          "text": "Copy 67.2 → 68.0"
+        },
+        {
+          "text": "Facts 83.0 (no change)"
+        }
+      ],
+      "suggested": [
+        "Wants approval to rewrite the Insights hero copy (needs input)",
+        "Suggests a batch fact-check run"
+      ]
+    }
+  }
+]

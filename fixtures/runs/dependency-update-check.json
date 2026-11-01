@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "dependency-update-check",
+    "n": 15,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 76
+    },
+    "score": 76,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 15",
+      "summary": "This sample post records run 15 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/15"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76 → 76"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 16,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 76.8
+    },
+    "score": 76.8,
+    "score_delta": 0.8,
+    "post": {
+      "headline": "Sample note for run 16",
+      "summary": "This sample post records run 16 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/16"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76 → 76.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 17,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.1
+    },
+    "score": 77.1,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 17",
+      "summary": "This sample post records run 17 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/17"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 76.8 → 77.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 18,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.1
+    },
+    "score": 77.1,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 18",
+      "summary": "This sample post records run 18 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/18"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.1 → 77.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 19,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 77.5
+    },
+    "score": 77.5,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 19",
+      "summary": "This sample post records run 19 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/19"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.1 → 77.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 20,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 78.4
+    },
+    "score": 78.4,
+    "score_delta": 0.9,
+    "post": {
+      "headline": "Sample note for run 20",
+      "summary": "This sample post records run 20 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/20"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 77.5 → 78.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 21,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.1
+    },
+    "score": 79.1,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 21",
+      "summary": "This sample post records run 21 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/21"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 78.4 → 79.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 22,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.3
+    },
+    "score": 79.3,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 22",
+      "summary": "This sample post records run 22 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/22"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.1 → 79.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 23,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.4
+    },
+    "score": 79.4,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 23",
+      "summary": "This sample post records run 23 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/23"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.3 → 79.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 24,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 79.9
+    },
+    "score": 79.9,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 24",
+      "summary": "This sample post records run 24 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/24"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.4 → 79.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 25,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 80.8
+    },
+    "score": 80.8,
+    "score_delta": 0.9,
+    "post": {
+      "headline": "Sample note for run 25",
+      "summary": "This sample post records run 25 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/25"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 79.9 → 80.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 26,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.4
+    },
+    "score": 81.4,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 26",
+      "summary": "This sample post records run 26 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/26"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 80.8 → 81.4"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 27,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 81.6
+    },
+    "score": 81.6,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 27",
+      "summary": "This sample post records run 27 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.4 → 81.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 28,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82
+    },
+    "score": 82,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 28",
+      "summary": "This sample post records run 28 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 81.6 → 82"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 29,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82
+    },
+    "score": 82,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 29",
+      "summary": "This sample post records run 29 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/29"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82 → 82"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "dependency-update-check",
+    "n": 30,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 82
+    },
+    "score": 82,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Dependency update check",
+      "summary": "This sample post records run 30 for Dependency update check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/dependency-update-check/runs/30"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 82 → 82"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

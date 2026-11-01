@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 27,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86
+    },
+    "score": 86,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 27",
+      "summary": "This sample post records run 27 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/27"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86 → 86"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 28,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.6
+    },
+    "score": 86.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 28",
+      "summary": "This sample post records run 28 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/28"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86 → 86.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 29,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.8
+    },
+    "score": 86.8,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 29",
+      "summary": "This sample post records run 29 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/29"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.6 → 86.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 30,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.7
+    },
+    "score": 86.7,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 30",
+      "summary": "This sample post records run 30 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/30"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.8 → 86.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 31,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.9
+    },
+    "score": 86.9,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 31",
+      "summary": "This sample post records run 31 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/31"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.7 → 86.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 32,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.6
+    },
+    "score": 87.6,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 32",
+      "summary": "This sample post records run 32 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/32"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.9 → 87.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 33,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88.2
+    },
+    "score": 88.2,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 33",
+      "summary": "This sample post records run 33 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/33"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.6 → 88.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 34,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88.3
+    },
+    "score": 88.3,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 34",
+      "summary": "This sample post records run 34 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/34"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88.2 → 88.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 35,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88.2
+    },
+    "score": 88.2,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 35",
+      "summary": "This sample post records run 35 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/35"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88.3 → 88.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 36,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88.5
+    },
+    "score": 88.5,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 36",
+      "summary": "This sample post records run 36 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/36"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88.2 → 88.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 37,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.2
+    },
+    "score": 89.2,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 37",
+      "summary": "This sample post records run 37 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/37"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88.5 → 89.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 38,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.7
+    },
+    "score": 89.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 38",
+      "summary": "This sample post records run 38 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/38"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.2 → 89.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 39,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.7
+    },
+    "score": 89.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 39",
+      "summary": "This sample post records run 39 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/39"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.7 → 89.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 40,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90
+    },
+    "score": 90,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 40",
+      "summary": "This sample post records run 40 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/40"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.7 → 90"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 41,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90
+    },
+    "score": 90,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 41",
+      "summary": "This sample post records run 41 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/41"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 90 → 90"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "docs-freshness-check",
+    "n": 42,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90
+    },
+    "score": 90,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Docs freshness check",
+      "summary": "This sample post records run 42 for Docs freshness check. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/docs-freshness-check/runs/42"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 90 → 90"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

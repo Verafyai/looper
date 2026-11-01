@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "reply-filter",
+    "n": 997,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 86.9
+    },
+    "score": 86.9,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 997",
+      "summary": "This sample post records run 997 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/997"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.9 → 86.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 998,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.6
+    },
+    "score": 87.6,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 998",
+      "summary": "This sample post records run 998 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/998"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 86.9 → 87.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 999,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.7
+    },
+    "score": 87.7,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 999",
+      "summary": "This sample post records run 999 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/999"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.6 → 87.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1000,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.6
+    },
+    "score": 87.6,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 1000",
+      "summary": "This sample post records run 1000 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1000"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.7 → 87.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1001,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 87.9
+    },
+    "score": 87.9,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 1001",
+      "summary": "This sample post records run 1001 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1001"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.6 → 87.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1002,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 88.6
+    },
+    "score": 88.6,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 1002",
+      "summary": "This sample post records run 1002 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1002"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 87.9 → 88.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1003,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.1
+    },
+    "score": 89.1,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 1003",
+      "summary": "This sample post records run 1003 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1003"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 88.6 → 89.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1004,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.2
+    },
+    "score": 89.2,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 1004",
+      "summary": "This sample post records run 1004 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1004"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.1 → 89.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1005,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.1
+    },
+    "score": 89.1,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 1005",
+      "summary": "This sample post records run 1005 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1005"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.2 → 89.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1006,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 89.5
+    },
+    "score": 89.5,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 1006",
+      "summary": "This sample post records run 1006 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1006"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.1 → 89.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1007,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90.2
+    },
+    "score": 90.2,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Sample note for run 1007",
+      "summary": "This sample post records run 1007 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1007"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 89.5 → 90.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1008,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90.7
+    },
+    "score": 90.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 1008",
+      "summary": "This sample post records run 1008 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1008"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 90.2 → 90.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1009,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 90.7
+    },
+    "score": 90.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 1009",
+      "summary": "This sample post records run 1009 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1009"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 90.7 → 90.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1010,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 91
+    },
+    "score": 91,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 1010",
+      "summary": "This sample post records run 1010 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1010"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 90.7 → 91"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1011,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 91
+    },
+    "score": 91,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 1011",
+      "summary": "This sample post records run 1011 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1011"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 91 → 91"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "reply-filter",
+    "n": 1012,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 91
+    },
+    "score": 91,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Reply credibility filter",
+      "summary": "This sample post records run 1012 for Reply credibility filter. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/reply-filter/runs/1012"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 91 → 91"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 205,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73
+    },
+    "score": 73,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 205",
+      "summary": "This sample post records run 205 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/205"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73 → 73"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 206,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.5
+    },
+    "score": 73.5,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 206",
+      "summary": "This sample post records run 206 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/206"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73 → 73.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 207,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.5
+    },
+    "score": 73.5,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 207",
+      "summary": "This sample post records run 207 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/207"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.5 → 73.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 208,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.2
+    },
+    "score": 73.2,
+    "score_delta": -0.3,
+    "post": {
+      "headline": "Sample note for run 208",
+      "summary": "This sample post records run 208 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/208"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.5 → 73.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 209,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.3
+    },
+    "score": 73.3,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 209",
+      "summary": "This sample post records run 209 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/209"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.2 → 73.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 210,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.8
+    },
+    "score": 73.8,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 210",
+      "summary": "This sample post records run 210 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/210"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.3 → 73.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 211,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.3
+    },
+    "score": 74.3,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 211",
+      "summary": "This sample post records run 211 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/211"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.8 → 74.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 212,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.2
+    },
+    "score": 74.2,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 212",
+      "summary": "This sample post records run 212 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/212"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.3 → 74.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 213,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 73.9
+    },
+    "score": 73.9,
+    "score_delta": -0.3,
+    "post": {
+      "headline": "Sample note for run 213",
+      "summary": "This sample post records run 213 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/213"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.2 → 73.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 214,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.1
+    },
+    "score": 74.1,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 214",
+      "summary": "This sample post records run 214 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/214"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 73.9 → 74.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 215,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.7
+    },
+    "score": 74.7,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 215",
+      "summary": "This sample post records run 215 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/215"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.1 → 74.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 216,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75
+    },
+    "score": 75,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 216",
+      "summary": "This sample post records run 216 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/216"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.7 → 75"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 217,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 74.9
+    },
+    "score": 74.9,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 217",
+      "summary": "This sample post records run 217 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/217"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75 → 74.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 218,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75
+    },
+    "score": 75,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 218",
+      "summary": "This sample post records run 218 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/218"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 74.9 → 75"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 219,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75
+    },
+    "score": 75,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 219",
+      "summary": "This sample post records run 219 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/219"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75 → 75"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "support-inbox-triage",
+    "n": 220,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 75
+    },
+    "score": 75,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Support inbox triage",
+      "summary": "This sample post records run 220 for Support inbox triage. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/support-inbox-triage/runs/220"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 75 → 75"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "loop_id": "api-self-eval",
+    "n": 1,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 69.5
+    },
+    "score": 69.5,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 69.5 → 69.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 2,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 69.6
+    },
+    "score": 69.6,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 69.5 → 69.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 3,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 69.1
+    },
+    "score": 69.1,
+    "score_delta": -0.5,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 69.6 → 69.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 4,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.5
+    },
+    "score": 68.5,
+    "score_delta": -0.6,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 69.1 → 68.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 5,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.1
+    },
+    "score": 68.1,
+    "score_delta": -0.4,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.5 → 68.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 6,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.2
+    },
+    "score": 68.2,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.1 → 68.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 7,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.2
+    },
+    "score": 68.2,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 7",
+      "summary": "This sample post records run 7 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.2 → 68.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 8,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.7
+    },
+    "score": 67.7,
+    "score_delta": -0.5,
+    "post": {
+      "headline": "Sample note for run 8",
+      "summary": "This sample post records run 8 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.2 → 67.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 9,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.1
+    },
+    "score": 67.1,
+    "score_delta": -0.6,
+    "post": {
+      "headline": "Sample note for run 9",
+      "summary": "This sample post records run 9 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/9"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.7 → 67.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 10,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 66.8
+    },
+    "score": 66.8,
+    "score_delta": -0.3,
+    "post": {
+      "headline": "Sample note for run 10",
+      "summary": "This sample post records run 10 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/10"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.1 → 66.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 11,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67
+    },
+    "score": 67,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 11",
+      "summary": "This sample post records run 11 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/11"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 66.8 → 67"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "api-self-eval",
+    "n": 12,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 66.9
+    },
+    "score": 66.9,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Latest sample post for API nightly self-eval",
+      "summary": "This sample post records run 12 for API nightly self-eval. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/api-self-eval/runs/12"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67 → 66.9"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

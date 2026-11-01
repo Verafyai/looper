@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-31T17:57:00.000Z",
+  "loops": {
+    "demo-loop": {
+      "enabled": true,
+      "last_run": "2026-10-30T06:00:00.000Z",
+      "result": "ok",
+      "next_run": "2026-10-31T06:00:00.000Z",
+      "kpis": { "quality": 40 }
+    },
+    "empty-goals": {
+      "enabled": true,
+      "last_run": "2026-10-28T06:00:00.000Z",
+      "result": "ok",
+      "next_run": "2026-11-02T16:00:00.000Z",
+      "kpis": {}
+    },
+    "failed-loop": {
+      "enabled": true,
+      "result": "failed",
+      "next_run": "2026-10-31T18:00:00.000Z",
+      "kpis": { "quality": 10 }
+    },
+    "login-loop": {
+      "enabled": true,
+      "result": "expired_login",
+      "dependency_ok": false,
+      "kpis": { "quality": 70 }
+    }
+  },
+  "one_offs": [
+    { "id": "renew", "reminder": "Renew domain", "due": "Nov 12", "status": "Open" }
+  ]
+}

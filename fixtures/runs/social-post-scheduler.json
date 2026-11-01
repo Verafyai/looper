@@ -1,0 +1,343 @@
+[
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 1,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67
+    },
+    "score": 67,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67 → 67"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 2,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.6
+    },
+    "score": 67.6,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67 → 67.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 3,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.6
+    },
+    "score": 67.6,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.6 → 67.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 4,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.5
+    },
+    "score": 67.5,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.6 → 67.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 5,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 67.6
+    },
+    "score": 67.6,
+    "score_delta": 0.1,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.5 → 67.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 6,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.2
+    },
+    "score": 68.2,
+    "score_delta": 0.6,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 67.6 → 68.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 7,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.7
+    },
+    "score": 68.7,
+    "score_delta": 0.5,
+    "post": {
+      "headline": "Sample note for run 7",
+      "summary": "This sample post records run 7 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.2 → 68.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 8,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.7
+    },
+    "score": 68.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 8",
+      "summary": "This sample post records run 8 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/8"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.7 → 68.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 9,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.6
+    },
+    "score": 68.6,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 9",
+      "summary": "This sample post records run 9 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/9"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.7 → 68.6"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 10,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 68.8
+    },
+    "score": 68.8,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 10",
+      "summary": "This sample post records run 10 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/10"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.6 → 68.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "social-post-scheduler",
+    "n": 11,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 69.5
+    },
+    "score": 69.5,
+    "score_delta": 0.7,
+    "post": {
+      "headline": "Latest sample post for Social post scheduler",
+      "summary": "This sample post records run 11 for Social post scheduler. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/social-post-scheduler/runs/11"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 68.8 → 69.5"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

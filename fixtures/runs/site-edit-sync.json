@@ -1,0 +1,498 @@
+[
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4395,
+    "started_at": "2026-10-16T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99
+    },
+    "score": 99,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 4395",
+      "summary": "This sample post records run 4395 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4395"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99 → 99"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4396,
+    "started_at": "2026-10-17T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.3
+    },
+    "score": 99.3,
+    "score_delta": 0.3,
+    "post": {
+      "headline": "Sample note for run 4396",
+      "summary": "This sample post records run 4396 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4396"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99 → 99.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4397,
+    "started_at": "2026-10-18T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.2
+    },
+    "score": 99.2,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 4397",
+      "summary": "This sample post records run 4397 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4397"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.3 → 99.2"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4398,
+    "started_at": "2026-10-19T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 98.8
+    },
+    "score": 98.8,
+    "score_delta": -0.4,
+    "post": {
+      "headline": "Sample note for run 4398",
+      "summary": "This sample post records run 4398 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4398"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.2 → 98.8"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4399,
+    "started_at": "2026-10-20T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 98.7
+    },
+    "score": 98.7,
+    "score_delta": -0.1,
+    "post": {
+      "headline": "Sample note for run 4399",
+      "summary": "This sample post records run 4399 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4399"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 98.8 → 98.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4400,
+    "started_at": "2026-10-21T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.1
+    },
+    "score": 99.1,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 4400",
+      "summary": "This sample post records run 4400 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4400"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 98.7 → 99.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4401,
+    "started_at": "2026-10-22T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.3
+    },
+    "score": 99.3,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 4401",
+      "summary": "This sample post records run 4401 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4401"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.1 → 99.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4402,
+    "started_at": "2026-10-23T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.1
+    },
+    "score": 99.1,
+    "score_delta": -0.2,
+    "post": {
+      "headline": "Sample note for run 4402",
+      "summary": "This sample post records run 4402 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4402"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.3 → 99.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4403,
+    "started_at": "2026-10-24T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 98.7
+    },
+    "score": 98.7,
+    "score_delta": -0.4,
+    "post": {
+      "headline": "Sample note for run 4403",
+      "summary": "This sample post records run 4403 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4403"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.1 → 98.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4404,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 98.7
+    },
+    "score": 98.7,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 4404",
+      "summary": "This sample post records run 4404 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4404"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 98.7 → 98.7"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4405,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.1
+    },
+    "score": 99.1,
+    "score_delta": 0.4,
+    "post": {
+      "headline": "Sample note for run 4405",
+      "summary": "This sample post records run 4405 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4405"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 98.7 → 99.1"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4406,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99.3
+    },
+    "score": 99.3,
+    "score_delta": 0.2,
+    "post": {
+      "headline": "Sample note for run 4406",
+      "summary": "This sample post records run 4406 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4406"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.1 → 99.3"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4407,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99
+    },
+    "score": 99,
+    "score_delta": -0.3,
+    "post": {
+      "headline": "Sample note for run 4407",
+      "summary": "This sample post records run 4407 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4407"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99.3 → 99"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4408,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99
+    },
+    "score": 99,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 4408",
+      "summary": "This sample post records run 4408 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4408"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99 → 99"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4409,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99
+    },
+    "score": 99,
+    "score_delta": 0,
+    "post": {
+      "headline": "Sample note for run 4409",
+      "summary": "This sample post records run 4409 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4409"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99 → 99"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "site-edit-sync",
+    "n": 4410,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {
+      "quality": 99
+    },
+    "score": 99,
+    "score_delta": 0,
+    "post": {
+      "headline": "Latest sample post for Site edit sync",
+      "summary": "This sample post records run 4410 for Site edit sync. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/site-edit-sync/runs/4410"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Quality 99 → 99"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

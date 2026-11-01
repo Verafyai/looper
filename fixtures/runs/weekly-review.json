@@ -1,0 +1,205 @@
+[
+  {
+    "loop_id": "weekly-review",
+    "n": 1,
+    "started_at": "2026-10-25T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 1",
+      "summary": "This sample post records run 1 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/1"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 2,
+    "started_at": "2026-10-26T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 2",
+      "summary": "This sample post records run 2 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/2"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 3,
+    "started_at": "2026-10-27T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 3",
+      "summary": "This sample post records run 3 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/3"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 4,
+    "started_at": "2026-10-28T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 4",
+      "summary": "This sample post records run 4 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/4"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 5,
+    "started_at": "2026-10-29T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 5",
+      "summary": "This sample post records run 5 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/5"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 6,
+    "started_at": "2026-10-30T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Sample note for run 6",
+      "summary": "This sample post records run 6 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/6"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  },
+  {
+    "loop_id": "weekly-review",
+    "n": 7,
+    "started_at": "2026-10-31T06:00:00.000Z",
+    "duration_s": 300,
+    "cost_usd": 0.2,
+    "status": "ok",
+    "kpis": {},
+    "score": null,
+    "score_delta": null,
+    "post": {
+      "headline": "Latest sample post for Weekly review",
+      "summary": "This sample post records run 7 for Weekly review. The text is generic and the figures shown on the card are the sample values for this loop.",
+      "changed": [
+        {
+          "text": "Updated the working notes",
+          "url": "/looper/weekly-review/runs/7"
+        }
+      ],
+      "evals": [
+        {
+          "text": "Checks → no score yet"
+        }
+      ],
+      "suggested": [
+        "No approval is waiting on this run."
+      ]
+    }
+  }
+]

@@ -1,0 +1,3415 @@
+[
+  {
+    "suggestions": [
+      {
+        "id": "invite-note",
+        "title": "Confirm the invite note",
+        "detail": "The last draft of the invite note is 2 weeks old. Approve it or edit the wording before the next batch.",
+        "canEdit": true
+      }
+    ],
+    "blockers": [
+      {
+        "title": "Account session expired",
+        "detail": "The loop could not accept invites because the account login expired.",
+        "runN": 34,
+        "when": "Oct 30, 2026",
+        "fix": "Reconnect account"
+      },
+      {
+        "title": "Invite list is missing a column",
+        "detail": "The source sheet no longer has the email column the loop expects.",
+        "runN": 33,
+        "when": "Oct 29, 2026",
+        "fix": "Retry"
+      }
+    ],
+    "goalNotes": [],
+    "flags": [
+      {
+        "kind": "blocker",
+        "text": "⚑ Blocked · 2 warnings"
+      },
+      {
+        "kind": "input",
+        "text": "Needs input · 1"
+      }
+    ],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "id": "partner-invite-acceptances",
+    "name": "Partner invite acceptances",
+    "status": "blocked",
+    "scoreState": "no-goals",
+    "initiatedLabel": "Sep 14, 2026",
+    "scheduleWords": "Weekdays ~10:00 AM",
+    "scheduleCron": "0 10 * * 1-5",
+    "timezone": "America/Los_Angeles",
+    "nextRunLabel": "Mon Nov 2, 10:00 AM",
+    "score": null,
+    "target": null,
+    "delta14d": null,
+    "delta14dLabel": "no data",
+    "deltaSinceStartLabel": "no data",
+    "kpiChips": [],
+    "runsMeta": "34 · since Sep 14",
+    "costMeta": "~$0.06/run · 2 min",
+    "stats": {
+      "initiated": "Sep 14, 2026",
+      "runs": "34",
+      "successRate": "no data",
+      "avgDuration": "2 min",
+      "costPerRun": "~$0.06",
+      "costToDate": "no data"
+    },
+    "sparkline": [],
+    "chart": {
+      "tickLabels": [],
+      "composite": [],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#5CD68C",
+          "values": []
+        }
+      ],
+      "target": null,
+      "yMin": 0,
+      "yMax": 100
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Partner invite acceptances keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Weekdays ~10:00 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [],
+    "progressRows": [],
+    "listRank": 0
+  },
+  {
+    "suggestions": [
+      {
+        "id": "copy-weight",
+        "title": "Raise the copy-score goal's weight",
+        "detail": "Copy is lagging (68 vs 80). Suggest spending 1 of the nightly changes on it until it reaches 75.",
+        "canEdit": true
+      },
+      {
+        "id": "fact-backlog",
+        "title": "Clear the fact-check backlog",
+        "detail": "1,471 claims pending. Suggest a one-time batch run (~$18).",
+        "canEdit": false
+      },
+      {
+        "id": "nav-labels",
+        "title": "Tighten the docs nav labels",
+        "detail": "Three section names are longer than the header can hold at 375px. Suggest shorter labels on the next run.",
+        "canEdit": false
+      }
+    ],
+    "blockers": [],
+    "goalNotes": [
+      "Fact score is provisional: 1,471 claims still pending."
+    ],
+    "flags": [
+      {
+        "kind": "input",
+        "text": "Needs input · 3 suggestions"
+      }
+    ],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Link check, no new 404s",
+      "Design sync rules (header, tokens, type sizes)",
+      "Fact check on any changed claim"
+    ],
+    "guardrails": [
+      "Auto-revert any change that fails an eval",
+      "Stop and flag if 2 runs in a row fail",
+      "Never change pricing, auth or public posting",
+      "Cost cap $3 per run; stop when reached"
+    ],
+    "qc": [
+      "A second model reviews every diff before merge. The owner approves anything flagged \"needs input\"."
+    ],
+    "id": "nightly-polish-run",
+    "name": "Nightly polish run (docs and marketing site)",
+    "status": "running",
+    "scoreState": "scored",
+    "initiatedLabel": "Sep 13, 2026",
+    "scheduleWords": "Daily ~11:00 PM",
+    "scheduleCron": "0 23 * * *",
+    "timezone": "America/Los_Angeles",
+    "nextRunLabel": "Tonight, 11:00 PM",
+    "score": 84.9,
+    "target": 90,
+    "delta14d": 3.1,
+    "delta14dLabel": "+3.1 in 14 days",
+    "deltaSinceStartLabel": "+6.9 since start",
+    "kpiChips": [
+      {
+        "label": "Quality",
+        "value": "84.9"
+      },
+      {
+        "label": "Copy",
+        "value": "68.0"
+      },
+      {
+        "label": "Facts",
+        "value": "83.0+"
+      }
+    ],
+    "runsMeta": "48 · since Sep 13",
+    "costMeta": "~$1.40/run · 22 min",
+    "stats": {
+      "initiated": "Sep 13, 2026",
+      "runs": "48",
+      "successRate": "96%",
+      "avgDuration": "22 min",
+      "costPerRun": "~$1.40",
+      "costToDate": "$67.20"
+    },
+    "sparkline": [
+      82.9,
+      82.8,
+      82.8,
+      83,
+      83.4,
+      83.8,
+      84.2,
+      84.5,
+      84.5,
+      84.5,
+      84.3,
+      84.5,
+      84.3,
+      84.9
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Sep 13"
+        },
+        {
+          "index": 16,
+          "text": "Sep 29"
+        },
+        {
+          "index": 32,
+          "text": "Oct 15"
+        },
+        {
+          "index": 47,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        78,
+        78.4,
+        78.7,
+        78.9,
+        78.8,
+        78.7,
+        78.6,
+        78.6,
+        78.8,
+        79.1,
+        79.6,
+        80,
+        80.2,
+        80.3,
+        80.2,
+        80.1,
+        80,
+        80,
+        80.3,
+        80.7,
+        81.1,
+        81.5,
+        81.7,
+        81.7,
+        81.6,
+        81.4,
+        81.4,
+        81.5,
+        81.8,
+        82.3,
+        82.7,
+        83,
+        83.1,
+        81.8,
+        82.9,
+        82.8,
+        82.8,
+        83,
+        83.4,
+        83.8,
+        84.2,
+        84.5,
+        84.5,
+        84.5,
+        84.3,
+        84.5,
+        84.3,
+        84.9
+      ],
+      "series": [
+        {
+          "key": "copy",
+          "label": "Copy",
+          "color": "#A78BFA",
+          "values": [
+            61,
+            61.3,
+            61.6,
+            61.8,
+            62,
+            62,
+            62,
+            61.9,
+            61.9,
+            61.9,
+            62.1,
+            62.4,
+            62.7,
+            63,
+            63.3,
+            63.6,
+            63.8,
+            63.9,
+            63.8,
+            63.8,
+            63.8,
+            63.8,
+            63.9,
+            64.1,
+            64.4,
+            64.7,
+            65,
+            65.3,
+            65.6,
+            65.7,
+            65.7,
+            65.7,
+            65.7,
+            65.6,
+            65.7,
+            65.8,
+            66.1,
+            66.4,
+            66.7,
+            67.1,
+            67.3,
+            67.5,
+            67.6,
+            67.6,
+            67.5,
+            67.5,
+            67.2,
+            68
+          ]
+        },
+        {
+          "key": "facts",
+          "label": "Facts",
+          "color": "#5CC8C8",
+          "values": [
+            79.4,
+            79.6,
+            79.7,
+            79.9,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80.1,
+            80.2,
+            80.3,
+            80.5,
+            80.7,
+            80.8,
+            81,
+            81.1,
+            81.2,
+            81.2,
+            81.2,
+            81.2,
+            81.2,
+            81.2,
+            81.2,
+            81.2,
+            81.3,
+            81.4,
+            81.6,
+            81.7,
+            81.9,
+            82.1,
+            82.2,
+            82.3,
+            82.4,
+            82.4,
+            82.4,
+            82.4,
+            82.4,
+            82.4,
+            82.4,
+            82.4,
+            82.5,
+            82.7,
+            83,
+            83
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 60,
+      "yMax": 90,
+      "pointHrefs": [
+        "/looper/nightly-polish-run/runs/1",
+        "/looper/nightly-polish-run/runs/2",
+        "/looper/nightly-polish-run/runs/3",
+        "/looper/nightly-polish-run/runs/4",
+        "/looper/nightly-polish-run/runs/5",
+        "/looper/nightly-polish-run/runs/6",
+        "/looper/nightly-polish-run/runs/7",
+        "/looper/nightly-polish-run/runs/8",
+        "/looper/nightly-polish-run/runs/9",
+        "/looper/nightly-polish-run/runs/10",
+        "/looper/nightly-polish-run/runs/11",
+        "/looper/nightly-polish-run/runs/12",
+        "/looper/nightly-polish-run/runs/13",
+        "/looper/nightly-polish-run/runs/14",
+        "/looper/nightly-polish-run/runs/15",
+        "/looper/nightly-polish-run/runs/16",
+        "/looper/nightly-polish-run/runs/17",
+        "/looper/nightly-polish-run/runs/18",
+        "/looper/nightly-polish-run/runs/19",
+        "/looper/nightly-polish-run/runs/20",
+        "/looper/nightly-polish-run/runs/21",
+        "/looper/nightly-polish-run/runs/22",
+        "/looper/nightly-polish-run/runs/23",
+        "/looper/nightly-polish-run/runs/24",
+        "/looper/nightly-polish-run/runs/25",
+        "/looper/nightly-polish-run/runs/26",
+        "/looper/nightly-polish-run/runs/27",
+        "/looper/nightly-polish-run/runs/28",
+        "/looper/nightly-polish-run/runs/29",
+        "/looper/nightly-polish-run/runs/30",
+        "/looper/nightly-polish-run/runs/31",
+        "/looper/nightly-polish-run/runs/32",
+        "/looper/nightly-polish-run/runs/33",
+        "/looper/nightly-polish-run/runs/34",
+        "/looper/nightly-polish-run/runs/35",
+        "/looper/nightly-polish-run/runs/36",
+        "/looper/nightly-polish-run/runs/37",
+        "/looper/nightly-polish-run/runs/38",
+        "/looper/nightly-polish-run/runs/39",
+        "/looper/nightly-polish-run/runs/40",
+        "/looper/nightly-polish-run/runs/41",
+        "/looper/nightly-polish-run/runs/42",
+        "/looper/nightly-polish-run/runs/43",
+        "/looper/nightly-polish-run/runs/44",
+        "/looper/nightly-polish-run/runs/45",
+        "/looper/nightly-polish-run/runs/46",
+        "/looper/nightly-polish-run/runs/47",
+        "/looper/nightly-polish-run/runs/48"
+      ]
+    },
+    "spec": {
+      "version": "4",
+      "editedLabel": "Oct 22",
+      "reconstructed": true,
+      "purpose": "Every night, ship 2 to 3 small, safe improvements per product across the docs and the marketing site, each verified, so quality rises steadily without big risky changes.",
+      "scope": {
+        "products": "Explorer, Insights, Forecast, Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read quality report",
+        "Pick lowest pages",
+        "Draft 2 to 3 fixes",
+        "Run checks",
+        "Merge or revert",
+        "Write log post"
+      ],
+      "inputs": [
+        "Morning quality report (scores per page)",
+        "Git repos for each product, preview builds",
+        "Fact check for changed claims"
+      ],
+      "runtime": {
+        "schedule": "Daily ~11:00 PM PT",
+        "timeLimit": "45 min",
+        "budget": "$3 per run, $80 per month",
+        "model": "a fast model; a larger model for review"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Better pages",
+        "kpi": "Portfolio quality score",
+        "now": "84.9",
+        "target": "90",
+        "lastRun": "+0.6",
+        "tone": "up"
+      },
+      {
+        "goal": "Clearer writing",
+        "kpi": "Copy score",
+        "now": "68.0",
+        "target": "80",
+        "lastRun": "+0.8",
+        "tone": "up"
+      },
+      {
+        "goal": "Accurate claims",
+        "kpi": "Fact score (provisional)",
+        "now": "83.0",
+        "target": "90",
+        "lastRun": "no change",
+        "tone": "flat"
+      },
+      {
+        "goal": "Steady pace",
+        "kpi": "Changes per product per night",
+        "now": "2.6",
+        "target": "2-3",
+        "lastRun": "met",
+        "tone": "met"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Portfolio quality",
+        "valueLabel": "84.9",
+        "goalLabel": "goal 90",
+        "progress": 94,
+        "color": "#5CD68C"
+      },
+      {
+        "label": "Copy score",
+        "valueLabel": "68.0",
+        "goalLabel": "goal 80",
+        "progress": 85,
+        "color": "#A78BFA"
+      },
+      {
+        "label": "Fact score",
+        "valueLabel": "83.0",
+        "goalLabel": "goal 90, provisional",
+        "progress": 92,
+        "color": "#5CC8C8"
+      },
+      {
+        "label": "Changes shipped per product, per night",
+        "valueLabel": "2.6",
+        "goalLabel": "goal 2-3",
+        "progress": 100,
+        "color": "#5CD68C"
+      },
+      {
+        "label": "Changes reverted",
+        "valueLabel": "1 of 124",
+        "goalLabel": "goal under 5%",
+        "progress": 16,
+        "color": "#F2B45C"
+      }
+    ],
+    "listRank": 1
+  },
+  {
+    "suggestions": [
+      {
+        "id": "define-goals",
+        "title": "Define goals and KPIs",
+        "detail": "This loop has no goals yet, so it cannot earn a score. Add a target for each result you want to track.",
+        "canEdit": true
+      }
+    ],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [
+      {
+        "kind": "input",
+        "text": "Needs input · define goals"
+      }
+    ],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "id": "weekly-review",
+    "name": "Weekly review",
+    "status": "running",
+    "scoreState": "no-goals",
+    "initiatedLabel": "Sep 13, 2026",
+    "scheduleWords": "Sundays 6:00 PM",
+    "scheduleCron": "0 18 * * 0",
+    "timezone": "America/Los_Angeles",
+    "nextRunLabel": "Sun Nov 1, 6:00 PM",
+    "score": null,
+    "target": null,
+    "delta14d": null,
+    "delta14dLabel": "no data",
+    "deltaSinceStartLabel": "no data",
+    "kpiChips": [],
+    "runsMeta": "7 · since Sep 13",
+    "costMeta": "~$0.30/run · 5 min",
+    "stats": {
+      "initiated": "Sep 13, 2026",
+      "runs": "7",
+      "successRate": "no data",
+      "avgDuration": "5 min",
+      "costPerRun": "~$0.30",
+      "costToDate": "no data"
+    },
+    "sparkline": [],
+    "chart": {
+      "tickLabels": [],
+      "composite": [],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#5CD68C",
+          "values": []
+        }
+      ],
+      "target": null,
+      "yMin": 0,
+      "yMax": 100
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Weekly review keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Sundays 6:00 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [],
+    "progressRows": [],
+    "listRank": 2
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 7 * * *",
+    "delta14dLabel": "+3.1 in 14 days",
+    "deltaSinceStartLabel": "+4.1 since start",
+    "sparkline": [
+      81.8,
+      82.4,
+      82.5,
+      82.3,
+      82.4,
+      83.1,
+      83.6,
+      83.6,
+      83.4,
+      83.7,
+      84.3,
+      84.8,
+      84.7,
+      84.9
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        81.8,
+        82.4,
+        82.5,
+        82.3,
+        82.4,
+        83.1,
+        83.6,
+        83.6,
+        83.4,
+        83.7,
+        84.3,
+        84.8,
+        84.7,
+        84.9
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            79.4,
+            79.8,
+            79.8,
+            79.5,
+            79.5,
+            80,
+            80.4,
+            80.3,
+            80,
+            80.2,
+            80.7,
+            81,
+            80.8,
+            80.9
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 77,
+      "yMax": 93
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Morning quality report keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Daily ~7:00 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "84.9",
+        "target": "90",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "84.9",
+        "goalLabel": "goal 90",
+        "progress": 94.33333333333334,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "morning-quality-report",
+    "name": "Morning quality report",
+    "listRank": 10,
+    "score": 84.9,
+    "target": 90,
+    "delta14d": 3.1,
+    "initiatedLabel": "Sep 12, 2026",
+    "scheduleWords": "Daily ~7:00 AM",
+    "nextRunLabel": "Sun Nov 1, 7:00 AM",
+    "kpiChips": [
+      {
+        "label": "Pages scored",
+        "value": "62"
+      },
+      {
+        "label": "Lowest page",
+        "value": "61"
+      }
+    ],
+    "runsMeta": "49 · since Sep 12",
+    "costMeta": "~$0.40/run · 6 min",
+    "stats": {
+      "initiated": "Sep 12, 2026",
+      "runs": "49",
+      "successRate": "no data",
+      "avgDuration": "6 min",
+      "costPerRun": "~$0.40",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "39 7,13 * * *",
+    "delta14dLabel": "+5.0 in 14 days",
+    "deltaSinceStartLabel": "+6.0 since start",
+    "sparkline": [
+      73,
+      73.7,
+      73.9,
+      73.9,
+      74.2,
+      75,
+      75.7,
+      75.8,
+      75.8,
+      76.2,
+      77,
+      77.6,
+      77.7,
+      78
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        73,
+        73.7,
+        73.9,
+        73.9,
+        74.2,
+        75,
+        75.7,
+        75.8,
+        75.8,
+        76.2,
+        77,
+        77.6,
+        77.7,
+        78
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            71.5,
+            72,
+            72.1,
+            71.8,
+            72,
+            72.5,
+            73,
+            73,
+            72.7,
+            73,
+            73.6,
+            74,
+            73.8,
+            74
+          ]
+        }
+      ],
+      "target": 85,
+      "yMin": 68,
+      "yMax": 88
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Local events scan keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Daily, 7:39 AM, 1:39 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "78",
+        "target": "85",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "78",
+        "goalLabel": "goal 85",
+        "progress": 91.76470588235294,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "event-scan",
+    "name": "Local events scan",
+    "listRank": 11,
+    "score": 78,
+    "target": 85,
+    "delta14d": 5,
+    "initiatedLabel": "Sep 12, 2026",
+    "scheduleWords": "Daily, 7:39 AM, 1:39 PM",
+    "nextRunLabel": "Today, 1:39 PM",
+    "kpiChips": [
+      {
+        "label": "Companies",
+        "value": "201"
+      },
+      {
+        "label": "People",
+        "value": "227"
+      },
+      {
+        "label": "Events",
+        "value": "46"
+      }
+    ],
+    "runsMeta": "86 · since Sep 12",
+    "costMeta": "~$0.25/run · 4 min",
+    "stats": {
+      "initiated": "Sep 12, 2026",
+      "runs": "86",
+      "successRate": "no data",
+      "avgDuration": "4 min",
+      "costPerRun": "~$0.25",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "5,20,35,50 8-22 * * *",
+    "delta14dLabel": "+4.1 in 14 days",
+    "deltaSinceStartLabel": "+5.1 since start",
+    "sparkline": [
+      86.9,
+      87.6,
+      87.7,
+      87.6,
+      87.9,
+      88.6,
+      89.1,
+      89.2,
+      89.1,
+      89.5,
+      90.2,
+      90.7,
+      90.7,
+      91
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        86.9,
+        87.6,
+        87.7,
+        87.6,
+        87.9,
+        88.6,
+        89.1,
+        89.2,
+        89.1,
+        89.5,
+        90.2,
+        90.7,
+        90.7,
+        91
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            85,
+            85.4,
+            85.4,
+            85.2,
+            85.3,
+            85.8,
+            86.2,
+            86.2,
+            85.9,
+            86.1,
+            86.7,
+            87,
+            86.9,
+            87
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 83,
+      "yMax": 93
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Reply credibility filter keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Every 15 min, 8:05 AM to 10:57 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "91",
+        "target": "90",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "91",
+        "goalLabel": "goal 90",
+        "progress": 100,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "reply-filter",
+    "name": "Reply credibility filter",
+    "listRank": 12,
+    "score": 91,
+    "target": 90,
+    "delta14d": 4.1,
+    "initiatedLabel": "Sep 20, 2026",
+    "scheduleWords": "Every 15 min, 8:05 AM to 10:57 PM",
+    "nextRunLabel": "Today, 11:05 AM",
+    "kpiChips": [
+      {
+        "label": "Posts graded",
+        "value": "449"
+      },
+      {
+        "label": "Failed in a row",
+        "value": "0"
+      }
+    ],
+    "runsMeta": "1,012 · since Sep 20",
+    "costMeta": "~$0.01/run · 20 s",
+    "stats": {
+      "initiated": "Sep 20, 2026",
+      "runs": "1,012",
+      "successRate": "no data",
+      "avgDuration": "20 s",
+      "costPerRun": "~$0.01",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "1 8 * * 1-5",
+    "delta14dLabel": "+4.2 in 14 days",
+    "deltaSinceStartLabel": "+5.2 since start",
+    "sparkline": [
+      67.8,
+      68.5,
+      68.6,
+      68.5,
+      68.8,
+      69.5,
+      70.1,
+      70.2,
+      70.1,
+      70.4,
+      71.2,
+      71.7,
+      71.7,
+      72
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        67.8,
+        68.5,
+        68.6,
+        68.5,
+        68.8,
+        69.5,
+        70.1,
+        70.2,
+        70.1,
+        70.4,
+        71.2,
+        71.7,
+        71.7,
+        72
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            65.9,
+            66.4,
+            66.4,
+            66.1,
+            66.2,
+            66.8,
+            67.2,
+            67.1,
+            66.9,
+            67.1,
+            67.7,
+            68,
+            67.9,
+            68
+          ]
+        }
+      ],
+      "target": 80,
+      "yMin": 63,
+      "yMax": 83
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Morning job digests keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Weekdays 8:01 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "72",
+        "target": "80",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "72",
+        "goalLabel": "goal 80",
+        "progress": 90,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "job-digests",
+    "name": "Morning job digests",
+    "listRank": 13,
+    "score": 72,
+    "target": 80,
+    "delta14d": 4.2,
+    "initiatedLabel": "Sep 15, 2026",
+    "scheduleWords": "Weekdays 8:01 AM",
+    "nextRunLabel": "Mon Nov 2, 8:01 AM",
+    "kpiChips": [
+      {
+        "label": "Roles tracked",
+        "value": "350"
+      },
+      {
+        "label": "New this week",
+        "value": "18"
+      }
+    ],
+    "runsMeta": "35 · since Sep 15",
+    "costMeta": "~$0.20/run · 7 min",
+    "stats": {
+      "initiated": "Sep 15, 2026",
+      "runs": "35",
+      "successRate": "no data",
+      "avgDuration": "7 min",
+      "costPerRun": "~$0.20",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "30 23 * * *",
+    "delta14dLabel": "-3.5 in 14 days",
+    "deltaSinceStartLabel": "-4.5 since start",
+    "sparkline": [
+      69.5,
+      69.6,
+      69.1,
+      68.5,
+      68.1,
+      68.2,
+      68.2,
+      67.7,
+      67.1,
+      66.8,
+      67,
+      66.9,
+      66.3,
+      66
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        69.5,
+        69.6,
+        69.1,
+        68.5,
+        68.1,
+        68.2,
+        68.2,
+        67.7,
+        67.1,
+        66.8,
+        67,
+        66.9,
+        66.3,
+        66
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            61.6,
+            62,
+            61.8,
+            61.5,
+            61.4,
+            61.8,
+            62.1,
+            61.9,
+            61.6,
+            61.6,
+            62.1,
+            62.3,
+            62,
+            62
+          ]
+        }
+      ],
+      "target": 85,
+      "yMin": 56,
+      "yMax": 90
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "API nightly self-eval keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Daily ~11:30 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "66",
+        "target": "85",
+        "lastRun": "-0.6",
+        "tone": "down"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "66",
+        "goalLabel": "goal 85",
+        "progress": 77.64705882352942,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "api-self-eval",
+    "name": "API nightly self-eval",
+    "listRank": 14,
+    "score": 66,
+    "target": 85,
+    "delta14d": -3.5,
+    "initiatedLabel": "Oct 19, 2026",
+    "scheduleWords": "Daily ~11:30 PM",
+    "nextRunLabel": "Tonight, 11:30 PM",
+    "kpiChips": [
+      {
+        "label": "Eval pass rate",
+        "value": "88%"
+      },
+      {
+        "label": "Regressions",
+        "value": "0"
+      }
+    ],
+    "runsMeta": "12 · since Oct 19",
+    "costMeta": "~$0.90/run · 14 min",
+    "stats": {
+      "initiated": "Oct 19, 2026",
+      "runs": "12",
+      "successRate": "no data",
+      "avgDuration": "14 min",
+      "costPerRun": "~$0.90",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "7,17,27,37,47,57 7-22 * * *",
+    "delta14dLabel": "steady",
+    "deltaSinceStartLabel": "+1.0 since start",
+    "sparkline": [
+      99,
+      99.3,
+      99.2,
+      98.8,
+      98.7,
+      99.1,
+      99.3,
+      99.1,
+      98.7,
+      98.7,
+      99.1,
+      99.3,
+      99,
+      99
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        99,
+        99.3,
+        99.2,
+        98.8,
+        98.7,
+        99.1,
+        99.3,
+        99.1,
+        98.7,
+        98.7,
+        99.1,
+        99.3,
+        99,
+        99
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            94.6,
+            95,
+            94.8,
+            94.5,
+            94.4,
+            94.8,
+            95.1,
+            94.9,
+            94.6,
+            94.6,
+            95.1,
+            95.3,
+            95,
+            95
+          ]
+        }
+      ],
+      "target": 98,
+      "yMin": 92,
+      "yMax": 102
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Site edit sync keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Every 10 min, 7:07 AM to 10:57 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "99",
+        "target": "98",
+        "lastRun": "no change",
+        "tone": "flat"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "99",
+        "goalLabel": "goal 98",
+        "progress": 100,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "site-edit-sync",
+    "name": "Site edit sync",
+    "listRank": 15,
+    "score": 99,
+    "target": 98,
+    "delta14d": 0,
+    "initiatedLabel": "Sep 10, 2026",
+    "scheduleWords": "Every 10 min, 7:07 AM to 10:57 PM",
+    "nextRunLabel": "Today, 11:07 AM",
+    "kpiChips": [
+      {
+        "label": "Edits applied",
+        "value": "312"
+      },
+      {
+        "label": "Conflicts",
+        "value": "0"
+      }
+    ],
+    "runsMeta": "4,410 · since Sep 10",
+    "costMeta": "~$0.002/run · 8 s",
+    "stats": {
+      "initiated": "Sep 10, 2026",
+      "runs": "4,410",
+      "successRate": "no data",
+      "avgDuration": "8 s",
+      "costPerRun": "~$0.002",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+4.0 in 14 days",
+    "deltaSinceStartLabel": "+5.0 since start",
+    "sparkline": [
+      82,
+      82.6,
+      82.8,
+      82.7,
+      82.9,
+      83.6,
+      84.2,
+      84.3,
+      84.2,
+      84.5,
+      85.2,
+      85.7,
+      85.7,
+      86
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        82,
+        82.6,
+        82.8,
+        82.7,
+        82.9,
+        83.6,
+        84.2,
+        84.3,
+        84.2,
+        84.5,
+        85.2,
+        85.7,
+        85.7,
+        86
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            80,
+            80.5,
+            80.5,
+            80.2,
+            80.3,
+            80.8,
+            81.3,
+            81.2,
+            80.9,
+            81.1,
+            81.7,
+            82,
+            81.9,
+            82
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 78,
+      "yMax": 92
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Changelog digest keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Weekdays 9:00 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "86",
+        "target": "90",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "86",
+        "goalLabel": "goal 90",
+        "progress": 95.55555555555556,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "changelog-digest",
+    "name": "Changelog digest",
+    "listRank": 16,
+    "score": 86,
+    "target": 90,
+    "delta14d": 4,
+    "initiatedLabel": "Sep 22, 2026",
+    "scheduleWords": "Weekdays 9:00 AM",
+    "nextRunLabel": "Mon Nov 2, 9:00 AM",
+    "kpiChips": [
+      {
+        "label": "Notes shipped",
+        "value": "24"
+      },
+      {
+        "label": "Repos",
+        "value": "6"
+      }
+    ],
+    "runsMeta": "28 · since Sep 22",
+    "costMeta": "~$0.15/run · 4 min",
+    "stats": {
+      "initiated": "Sep 22, 2026",
+      "runs": "28",
+      "successRate": "no data",
+      "avgDuration": "4 min",
+      "costPerRun": "~$0.15",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+5.0 in 14 days",
+    "deltaSinceStartLabel": "+6.0 since start",
+    "sparkline": [
+      83,
+      83.7,
+      83.9,
+      83.9,
+      84.2,
+      85,
+      85.7,
+      85.8,
+      85.8,
+      86.2,
+      87,
+      87.6,
+      87.7,
+      88
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        83,
+        83.7,
+        83.9,
+        83.9,
+        84.2,
+        85,
+        85.7,
+        85.8,
+        85.8,
+        86.2,
+        87,
+        87.6,
+        87.7,
+        88
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            81.5,
+            82,
+            82.1,
+            81.8,
+            82,
+            82.5,
+            83,
+            83,
+            82.7,
+            83,
+            83.6,
+            84,
+            83.8,
+            84
+          ]
+        }
+      ],
+      "target": 95,
+      "yMin": 78,
+      "yMax": 98
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Broken link sweep keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Daily ~6:30 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "88",
+        "target": "95",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "88",
+        "goalLabel": "goal 95",
+        "progress": 92.63157894736842,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "broken-link-sweep",
+    "name": "Broken link sweep",
+    "listRank": 17,
+    "score": 88,
+    "target": 95,
+    "delta14d": 5,
+    "initiatedLabel": "Sep 20, 2026",
+    "scheduleWords": "Daily ~6:30 AM",
+    "nextRunLabel": "Sun Nov 1, 6:30 AM",
+    "kpiChips": [
+      {
+        "label": "Links checked",
+        "value": "1,204"
+      },
+      {
+        "label": "Broken",
+        "value": "3"
+      }
+    ],
+    "runsMeta": "40 · since Sep 20",
+    "costMeta": "~$0.08/run · 3 min",
+    "stats": {
+      "initiated": "Sep 20, 2026",
+      "runs": "40",
+      "successRate": "no data",
+      "avgDuration": "3 min",
+      "costPerRun": "~$0.08",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+3.0 in 14 days",
+    "deltaSinceStartLabel": "+4.0 since start",
+    "sparkline": [
+      77,
+      77.6,
+      77.6,
+      77.5,
+      77.6,
+      78.2,
+      78.7,
+      78.7,
+      78.6,
+      78.8,
+      79.5,
+      79.9,
+      79.8,
+      80
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        77,
+        77.6,
+        77.6,
+        77.5,
+        77.6,
+        78.2,
+        78.7,
+        78.7,
+        78.6,
+        78.8,
+        79.5,
+        79.9,
+        79.8,
+        80
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            74.5,
+            75,
+            74.9,
+            74.6,
+            74.7,
+            75.2,
+            75.5,
+            75.4,
+            75.1,
+            75.3,
+            75.8,
+            76.1,
+            75.9,
+            76
+          ]
+        }
+      ],
+      "target": 85,
+      "yMin": 72,
+      "yMax": 88
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Weekly metrics email keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Mondays 8:30 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "80",
+        "target": "85",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "80",
+        "goalLabel": "goal 85",
+        "progress": 94.11764705882352,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "weekly-metrics-email",
+    "name": "Weekly metrics email",
+    "listRank": 18,
+    "score": 80,
+    "target": 85,
+    "delta14d": 3,
+    "initiatedLabel": "Sep 8, 2026",
+    "scheduleWords": "Mondays 8:30 AM",
+    "nextRunLabel": "Mon Nov 2, 8:30 AM",
+    "kpiChips": [
+      {
+        "label": "Reports sent",
+        "value": "12"
+      },
+      {
+        "label": "Opens",
+        "value": "64%"
+      }
+    ],
+    "runsMeta": "8 · since Sep 8",
+    "costMeta": "~$0.12/run · 3 min",
+    "stats": {
+      "initiated": "Sep 8, 2026",
+      "runs": "8",
+      "successRate": "no data",
+      "avgDuration": "3 min",
+      "costPerRun": "~$0.12",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+2.0 in 14 days",
+    "deltaSinceStartLabel": "+3.0 since start",
+    "sparkline": [
+      73,
+      73.5,
+      73.5,
+      73.2,
+      73.3,
+      73.8,
+      74.3,
+      74.2,
+      73.9,
+      74.1,
+      74.7,
+      75,
+      74.9,
+      75
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        73,
+        73.5,
+        73.5,
+        73.2,
+        73.3,
+        73.8,
+        74.3,
+        74.2,
+        73.9,
+        74.1,
+        74.7,
+        75,
+        74.9,
+        75
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            70,
+            70.4,
+            70.3,
+            70,
+            70,
+            70.5,
+            70.8,
+            70.7,
+            70.3,
+            70.4,
+            70.9,
+            71.2,
+            71,
+            71
+          ]
+        }
+      ],
+      "target": 80,
+      "yMin": 68,
+      "yMax": 82
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Support inbox triage keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Hourly, 9:00 AM to 6:00 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "75",
+        "target": "80",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "75",
+        "goalLabel": "goal 80",
+        "progress": 93.75,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "support-inbox-triage",
+    "name": "Support inbox triage",
+    "listRank": 19,
+    "score": 75,
+    "target": 80,
+    "delta14d": 2,
+    "initiatedLabel": "Sep 18, 2026",
+    "scheduleWords": "Hourly, 9:00 AM to 6:00 PM",
+    "nextRunLabel": "Today, 11:00 AM",
+    "kpiChips": [
+      {
+        "label": "Threads",
+        "value": "86"
+      },
+      {
+        "label": "Waiting",
+        "value": "4"
+      }
+    ],
+    "runsMeta": "220 · since Sep 18",
+    "costMeta": "~$0.04/run · 1 min",
+    "stats": {
+      "initiated": "Sep 18, 2026",
+      "runs": "220",
+      "successRate": "no data",
+      "avgDuration": "1 min",
+      "costPerRun": "~$0.04",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+6.0 in 14 days",
+    "deltaSinceStartLabel": "+7.0 since start",
+    "sparkline": [
+      76,
+      76.8,
+      77.1,
+      77.1,
+      77.5,
+      78.4,
+      79.1,
+      79.3,
+      79.4,
+      79.9,
+      80.8,
+      81.4,
+      81.6,
+      82
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        76,
+        76.8,
+        77.1,
+        77.1,
+        77.5,
+        78.4,
+        79.1,
+        79.3,
+        79.4,
+        79.9,
+        80.8,
+        81.4,
+        81.6,
+        82
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            75,
+            75.6,
+            75.6,
+            75.5,
+            75.6,
+            76.2,
+            76.7,
+            76.7,
+            76.6,
+            76.8,
+            77.5,
+            77.9,
+            77.8,
+            78
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 72,
+      "yMax": 93
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Dependency update check keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Weekdays 7:30 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "82",
+        "target": "90",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "82",
+        "goalLabel": "goal 90",
+        "progress": 91.11111111111111,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "dependency-update-check",
+    "name": "Dependency update check",
+    "listRank": 20,
+    "score": 82,
+    "target": 90,
+    "delta14d": 6,
+    "initiatedLabel": "Sep 16, 2026",
+    "scheduleWords": "Weekdays 7:30 AM",
+    "nextRunLabel": "Mon Nov 2, 7:30 AM",
+    "kpiChips": [
+      {
+        "label": "Packages",
+        "value": "140"
+      },
+      {
+        "label": "Updates",
+        "value": "9"
+      }
+    ],
+    "runsMeta": "30 · since Sep 16",
+    "costMeta": "~$0.18/run · 5 min",
+    "stats": {
+      "initiated": "Sep 16, 2026",
+      "runs": "30",
+      "successRate": "no data",
+      "avgDuration": "5 min",
+      "costPerRun": "~$0.18",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "running",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+4.0 in 14 days",
+    "deltaSinceStartLabel": "+5.0 since start",
+    "sparkline": [
+      86,
+      86.6,
+      86.8,
+      86.7,
+      86.9,
+      87.6,
+      88.2,
+      88.3,
+      88.2,
+      88.5,
+      89.2,
+      89.7,
+      89.7,
+      90
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        86,
+        86.6,
+        86.8,
+        86.7,
+        86.9,
+        87.6,
+        88.2,
+        88.3,
+        88.2,
+        88.5,
+        89.2,
+        89.7,
+        89.7,
+        90
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            84,
+            84.5,
+            84.5,
+            84.2,
+            84.3,
+            84.8,
+            85.3,
+            85.2,
+            84.9,
+            85.1,
+            85.7,
+            86,
+            85.9,
+            86
+          ]
+        }
+      ],
+      "target": 90,
+      "yMin": 82,
+      "yMax": 92
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Docs freshness check keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Daily ~5:00 AM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "90",
+        "target": "90",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "90",
+        "goalLabel": "goal 90",
+        "progress": 100,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "docs-freshness-check",
+    "name": "Docs freshness check",
+    "listRank": 21,
+    "score": 90,
+    "target": 90,
+    "delta14d": 4,
+    "initiatedLabel": "Sep 19, 2026",
+    "scheduleWords": "Daily ~5:00 AM",
+    "nextRunLabel": "Sun Nov 1, 5:00 AM",
+    "kpiChips": [
+      {
+        "label": "Pages",
+        "value": "220"
+      },
+      {
+        "label": "Stale",
+        "value": "2"
+      }
+    ],
+    "runsMeta": "42 · since Sep 19",
+    "costMeta": "~$0.10/run · 4 min",
+    "stats": {
+      "initiated": "Sep 19, 2026",
+      "runs": "42",
+      "successRate": "no data",
+      "avgDuration": "4 min",
+      "costPerRun": "~$0.10",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "paused",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+3.0 in 14 days",
+    "deltaSinceStartLabel": "+4.0 since start",
+    "sparkline": [
+      67,
+      67.6,
+      67.6,
+      67.5,
+      67.6,
+      68.2,
+      68.7,
+      68.7,
+      68.6,
+      68.8,
+      69.5,
+      69.9,
+      69.8,
+      70
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        67,
+        67.6,
+        67.6,
+        67.5,
+        67.6,
+        68.2,
+        68.7,
+        68.7,
+        68.6,
+        68.8,
+        69.5,
+        69.9,
+        69.8,
+        70
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            64.5,
+            65,
+            64.9,
+            64.6,
+            64.7,
+            65.2,
+            65.5,
+            65.4,
+            65.1,
+            65.3,
+            65.8,
+            66.1,
+            65.9,
+            66
+          ]
+        }
+      ],
+      "target": 80,
+      "yMin": 61,
+      "yMax": 84
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Social post scheduler keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Paused",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "70",
+        "target": "80",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "70",
+        "goalLabel": "goal 80",
+        "progress": 87.5,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "social-post-scheduler",
+    "name": "Social post scheduler",
+    "listRank": 30,
+    "score": 70,
+    "target": 80,
+    "delta14d": 3,
+    "initiatedLabel": "Aug 2, 2026",
+    "scheduleWords": "Paused",
+    "nextRunLabel": "Not scheduled",
+    "kpiChips": [
+      {
+        "label": "Drafts",
+        "value": "8"
+      },
+      {
+        "label": "Scheduled",
+        "value": "0"
+      }
+    ],
+    "runsMeta": "11 · since Aug 2",
+    "costMeta": "~$0.05/run · 2 min",
+    "stats": {
+      "initiated": "Aug 2, 2026",
+      "runs": "11",
+      "successRate": "no data",
+      "avgDuration": "2 min",
+      "costPerRun": "~$0.05",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "paused",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+4.0 in 14 days",
+    "deltaSinceStartLabel": "+5.0 since start",
+    "sparkline": [
+      73,
+      73.6,
+      73.8,
+      73.7,
+      73.9,
+      74.6,
+      75.2,
+      75.3,
+      75.2,
+      75.5,
+      76.2,
+      76.7,
+      76.7,
+      77
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        73,
+        73.6,
+        73.8,
+        73.7,
+        73.9,
+        74.6,
+        75.2,
+        75.3,
+        75.2,
+        75.5,
+        76.2,
+        76.7,
+        76.7,
+        77
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            71,
+            71.5,
+            71.5,
+            71.2,
+            71.3,
+            71.8,
+            72.3,
+            72.2,
+            71.9,
+            72.1,
+            72.7,
+            73,
+            72.9,
+            73
+          ]
+        }
+      ],
+      "target": 85,
+      "yMin": 68,
+      "yMax": 88
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Newsletter draft keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Fridays 4:00 PM",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "77",
+        "target": "85",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "77",
+        "goalLabel": "goal 85",
+        "progress": 90.58823529411765,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "newsletter-draft",
+    "name": "Newsletter draft",
+    "listRank": 31,
+    "score": 77,
+    "target": 85,
+    "delta14d": 4,
+    "initiatedLabel": "Aug 15, 2026",
+    "scheduleWords": "Fridays 4:00 PM",
+    "nextRunLabel": "Not scheduled",
+    "kpiChips": [
+      {
+        "label": "Issues",
+        "value": "6"
+      },
+      {
+        "label": "Open rate",
+        "value": "41%"
+      }
+    ],
+    "runsMeta": "6 · since Aug 15",
+    "costMeta": "~$0.22/run · 8 min",
+    "stats": {
+      "initiated": "Aug 15, 2026",
+      "runs": "6",
+      "successRate": "no data",
+      "avgDuration": "8 min",
+      "costPerRun": "~$0.22",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "paused",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+3.4 in 14 days",
+    "deltaSinceStartLabel": "+4.4 since start",
+    "sparkline": [
+      79.6,
+      80.2,
+      80.3,
+      80.1,
+      80.3,
+      81,
+      81.5,
+      81.5,
+      81.4,
+      81.7,
+      82.4,
+      82.8,
+      82.8,
+      83
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        79.6,
+        80.2,
+        80.3,
+        80.1,
+        80.3,
+        81,
+        81.5,
+        81.5,
+        81.4,
+        81.7,
+        82.4,
+        82.8,
+        82.8,
+        83
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            77.3,
+            77.8,
+            77.7,
+            77.5,
+            77.5,
+            78,
+            78.4,
+            78.3,
+            78.1,
+            78.2,
+            78.8,
+            79.1,
+            78.9,
+            79
+          ]
+        }
+      ],
+      "target": 88,
+      "yMin": 75,
+      "yMax": 91
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Pricing page test keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Paused",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "83",
+        "target": "88",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "83",
+        "goalLabel": "goal 88",
+        "progress": 94.31818181818183,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "pricing-page-test",
+    "name": "Pricing page test",
+    "listRank": 32,
+    "score": 83,
+    "target": 88,
+    "delta14d": 3.4,
+    "initiatedLabel": "Sep 1, 2026",
+    "scheduleWords": "Paused",
+    "nextRunLabel": "Not scheduled",
+    "kpiChips": [
+      {
+        "label": "Variants",
+        "value": "3"
+      },
+      {
+        "label": "Winner",
+        "value": "none"
+      }
+    ],
+    "runsMeta": "9 · since Sep 1",
+    "costMeta": "~$0.30/run · 6 min",
+    "stats": {
+      "initiated": "Sep 1, 2026",
+      "runs": "9",
+      "successRate": "no data",
+      "avgDuration": "6 min",
+      "costPerRun": "~$0.30",
+      "costToDate": "no data"
+    }
+  },
+  {
+    "suggestions": [],
+    "blockers": [],
+    "goalNotes": [],
+    "flags": [],
+    "evals": [
+      "Layout check at 375, 768 and 1440px",
+      "Confirm the run log matches the diff"
+    ],
+    "guardrails": [
+      "Stop and flag if 2 runs in a row fail",
+      "Stay inside the budget for the run"
+    ],
+    "qc": [
+      "The owner approves anything flagged needs input."
+    ],
+    "scoreState": "scored",
+    "status": "paused",
+    "timezone": "America/Los_Angeles",
+    "scheduleCron": "0 9 * * *",
+    "delta14dLabel": "+4.0 in 14 days",
+    "deltaSinceStartLabel": "+5.0 since start",
+    "sparkline": [
+      76.4,
+      77,
+      77.2,
+      77.1,
+      77.3,
+      78,
+      78.6,
+      78.7,
+      78.6,
+      78.9,
+      79.6,
+      80.1,
+      80.1,
+      80.4
+    ],
+    "chart": {
+      "tickLabels": [
+        {
+          "index": 0,
+          "text": "Oct 17"
+        },
+        {
+          "index": 7,
+          "text": "Oct 24"
+        },
+        {
+          "index": 13,
+          "text": "Oct 30"
+        }
+      ],
+      "composite": [
+        76.4,
+        77,
+        77.2,
+        77.1,
+        77.3,
+        78,
+        78.6,
+        78.7,
+        78.6,
+        78.9,
+        79.6,
+        80.1,
+        80.1,
+        80.4
+      ],
+      "series": [
+        {
+          "key": "quality",
+          "label": "Quality",
+          "color": "#8C97A4",
+          "values": [
+            74.4,
+            74.9,
+            74.9,
+            74.6,
+            74.7,
+            75.2,
+            75.7,
+            75.6,
+            75.3,
+            75.5,
+            76.1,
+            76.4,
+            76.3,
+            76.4
+          ]
+        }
+      ],
+      "target": 85,
+      "yMin": 72,
+      "yMax": 88
+    },
+    "spec": {
+      "version": "1",
+      "editedLabel": "Oct 10",
+      "reconstructed": false,
+      "purpose": "Partner follow-ups keeps a recurring check on its area and writes down the result of each run.",
+      "scope": {
+        "products": "Docs, the marketing site",
+        "allowed": "Copy, layout, links, small fixes",
+        "notAllowed": "Pricing, auth, data deletion, posting publicly"
+      },
+      "steps": [
+        "Read the latest inputs",
+        "Draft a small change",
+        "Run checks",
+        "Write the log post"
+      ],
+      "inputs": [
+        "The loop prompt",
+        "The repo for this area"
+      ],
+      "runtime": {
+        "schedule": "Paused",
+        "timeLimit": "30 min",
+        "budget": "$1 per run",
+        "model": "a fast model"
+      }
+    },
+    "goalRows": [
+      {
+        "goal": "Reach the target",
+        "kpi": "Composite score",
+        "now": "80.4",
+        "target": "85",
+        "lastRun": "+0.4",
+        "tone": "up"
+      }
+    ],
+    "progressRows": [
+      {
+        "label": "Composite score",
+        "valueLabel": "80.4",
+        "goalLabel": "goal 85",
+        "progress": 94.58823529411765,
+        "color": "#5CD68C"
+      }
+    ],
+    "id": "partner-follow-ups",
+    "name": "Partner follow-ups",
+    "listRank": 33,
+    "score": 80.4,
+    "target": 85,
+    "delta14d": 4,
+    "initiatedLabel": "Aug 20, 2026",
+    "scheduleWords": "Paused",
+    "nextRunLabel": "Not scheduled",
+    "kpiChips": [
+      {
+        "label": "Threads",
+        "value": "14"
+      },
+      {
+        "label": "Replies",
+        "value": "5"
+      }
+    ],
+    "runsMeta": "15 · since Aug 20",
+    "costMeta": "~$0.07/run · 2 min",
+    "stats": {
+      "initiated": "Aug 20, 2026",
+      "runs": "15",
+      "successRate": "no data",
+      "avgDuration": "2 min",
+      "costPerRun": "~$0.07",
+      "costToDate": "no data"
+    }
+  }
+]
