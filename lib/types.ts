@@ -53,6 +53,12 @@ export type SpecContent = {
   };
   steps: string[];
   inputs: string[];
+  /** Present on private loop files. Sample fixtures omit these. */
+  owner?: string;
+  lastRun?: string;
+  outputs?: string[];
+  approvals?: string[];
+  guardrails?: string[];
   runtime: {
     schedule: string;
     timeLimit: string;
@@ -183,8 +189,16 @@ export type Summary = {
   costWeek: number;
 };
 
+export type RetiredLoop = {
+  id: string;
+  name: string;
+  purpose: string;
+  note: string;
+};
+
 export type Dataset = {
   mode: "sample" | "private";
+  retired?: RetiredLoop[];
   loops: LoopRecord[];
   runsByLoop: Record<string, RunRecord[]>;
   oneOffs: OneOff[];

@@ -11,6 +11,8 @@ export default async function LooperPage() {
       oneOffCount={data.oneOffs.length}
       runsToday={data.summary.runsToday}
       costWeek={data.summary.costWeek}
+      retired={data.mode === "private" ? (data.retired ?? []) : []}
+      mode={data.mode}
     />
   );
 }

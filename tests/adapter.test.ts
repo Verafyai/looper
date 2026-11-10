@@ -77,6 +77,9 @@ describe("private adapter", () => {
     expect(empty?.scoreState).toBe("no-goals");
     expect(empty?.flags.some((flag) => flag.kind === "input")).toBe(true);
     expect(empty?.kpiChips).toEqual([]);
+    expect(empty?.stats.runs.startsWith("Last run ")).toBe(true);
+    expect(empty?.stats.runs).not.toBe("No runs yet");
+    expect(empty?.runsMeta).toMatch(/^Last run .+ \(no run log yet\)$/);
   });
 
   it("blocks on failed runs and on an expired login", () => {
@@ -98,5 +101,34 @@ describe("private adapter", () => {
   it("reads the snapshot time and one-offs", () => {
     expect(data.summary.snapshotLabel).toBe("Sat Oct 31, 10:57 AM PT");
     expect(data.oneOffs[0]?.reminder).toBe("Renew domain");
+  });
+
+  it("reads scope, steps, outputs, approvals, guardrails, owner, and last run", () => {
+    const loop = data.loops.find((item) => item.id === "full-spec");
+    expect(loop?.status).toBe("paused");
+    expect(loop?.spec.reconstructed).toBe(true);
+    expect(loop?.spec.scope).toEqual({
+      products: "Looper, the docs site",
+      allowed: "Copy and layout",
+      notAllowed: "Billing and auth",
+    });
+    expect(loop?.spec.steps).toEqual(["Collect the notes", "Draft the brief"]);
+    expect(loop?.spec.outputs).toEqual(["A brief in the log"]);
+    expect(loop?.spec.approvals).toEqual(["Publish the brief"]);
+    expect(loop?.spec.guardrails).toEqual(["Do not email customers"]);
+    expect(loop?.spec.owner).toBe("Rex");
+    expect(loop?.spec.lastRun).toBe("2026-10-15");
+    expect(loop?.stats.runs).toBe("Last run 2026-10-15");
+    expect(loop?.runsMeta).toBe("Last run 2026-10-15 (no run log yet)");
+  });
+
+  it("lists retired loops only from the private archive", () => {
+    expect(data.retired?.map((item) => item.id)).toEqual(["old-digest"]);
+    expect(data.retired?.[0]).toMatchObject({
+      name: "Old digest",
+      purpose: "Send the old digest.",
+      note: "Retired on Oct 1 after the digest moved",
+    });
+    expect(data.loops.map((loop) => loop.id)).not.toContain("old-digest");
   });
 });
