@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GITHUB_URL } from "./HomeMain";
 
 export function SiteHeader() {
   return (
@@ -11,6 +12,7 @@ export function SiteHeader() {
       </Link>
       <nav className="nav" aria-label="Main">
         <Link href="/spec">Spec format</Link>
+        <a href={GITHUB_URL}>GitHub</a>
         <Link href="/looper" className="btn btn-primary">
           Open loops
         </Link>

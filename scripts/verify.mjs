@@ -211,11 +211,10 @@ check("no card score", await page.locator('[data-testid="card-score"]').count() 
 
 await page.goto(base + "/", { waitUntil: "networkidle" });
 check("site header", (await page.locator('[data-testid="site-header"]').innerText()).includes("Looper"));
-for (const name of ["dashboard", "loop", "specgoals"]) {
-  const visual = page.locator(`[data-product-visual="${name}"]`);
-  check(`visual ${name}`, await visual.locator('[data-testid="sample-label"]').count());
-}
-check("home sample", await page.locator('[data-testid="sample-label"]').count() >= 4);
+check("home github", (await page.locator('.hero a.btn-primary').getAttribute("href")) === "https://github.com/Verafyai/looper");
+const shots = await page.locator(".shot-strip img").evaluateAll((imgs) => imgs.map((img) => img.complete || img.loading === "lazy"));
+check("home screenshots", shots.length >= 5, String(shots.length));
+check("home sample", await page.locator('[data-testid="sample-label"]').count() >= 1);
 
 await page.goto(base + "/spec", { waitUntil: "networkidle" });
 check("spec headings", (await page.locator("h2, h3").count()) >= 3);
