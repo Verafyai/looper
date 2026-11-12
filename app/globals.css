@@ -465,6 +465,8 @@ button.tile { width: 100%; }
   font-size: 13px;
   color: #F2F5F8;
   background: rgba(7, 9, 12, 0.35);
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 .step-arrow { color: #5F6B78; font-size: 14px; }
 
@@ -570,6 +572,8 @@ button.tile { width: 100%; }
   padding: 10px 0;
   font-size: 15px;
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .tabs button[aria-selected="true"] {
@@ -791,6 +795,12 @@ button.tile { width: 100%; }
   .block { padding: 22px 22px; }
   .site-footer { padding-left: 24px; padding-right: 24px; }
 }
+
+.retired-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.retired-item { padding: 14px 16px; border-radius: 12px; border: 1px solid #222B36; opacity: 0.85; overflow-wrap: anywhere; }
+.retired-item p { margin-top: 4px; font-size: 14px; color: #C3CCD6; }
+.retired-item .muted { color: #8C97A4; font-size: 13px; }
+[data-spec-section] li { overflow-wrap: anywhere; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
