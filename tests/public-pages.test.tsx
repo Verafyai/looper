@@ -1,32 +1,35 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { HomeMain } from "@/components/HomeMain";
+import fs from "node:fs";
+import path from "node:path";
+import { GITHUB_URL, HomeMain, screenshots } from "@/components/HomeMain";
 import { SpecFormat } from "@/components/SpecFormat";
-import { loadSample } from "@/lib/sample";
 
 const banned = /\u2013|\u2014|rexstjohn/i;
 
 describe("public pages", () => {
-  const home = renderToStaticMarkup(<HomeMain data={loadSample()} />);
+  const home = renderToStaticMarkup(<HomeMain />);
   const spec = renderToStaticMarkup(<SpecFormat />);
 
-  it("renders three product visuals, each with a sample label", () => {
-    for (const name of ["dashboard", "loop", "specgoals"]) {
-      const start = home.indexOf(`data-product-visual="${name}"`);
-      expect(start).toBeGreaterThan(-1);
-      const next = home.indexOf("data-product-visual=", start + 10);
-      const slice = home.slice(start, next === -1 ? undefined : next);
-      expect(slice).toContain('data-testid="sample-label"');
-      expect(slice).toContain("Sample data");
-    }
-    expect(home.match(/data-testid="sample-label"/g)?.length).toBeGreaterThanOrEqual(4);
+  it("leads with the headline and sends people to GitHub", () => {
+    expect(home).toContain("Manage your agentic processes and workflows, on a schedule, in one dashboard");
+    expect(home).toContain(`href="${GITHUB_URL}"`);
+    expect(home).toContain("View on GitHub");
+    expect(home).not.toContain("Read the spec");
   });
 
-  it("shows blocked red and needs-input amber in the dashboard visual", () => {
-    expect(home).toContain('data-tile="blocked"');
-    expect(home).toContain('data-tile="needs-input"');
-    expect(home).toContain('data-status="blocked"');
-    expect(home).toContain('data-status="input"');
+  it("shows every screenshot in one strip, each file present, with a sample data note", () => {
+    expect(screenshots.length).toBeGreaterThanOrEqual(5);
+    for (const shot of screenshots) {
+      expect(home).toContain(`src="/screenshots/${shot.file}"`);
+      expect(fs.existsSync(path.join(process.cwd(), "public/screenshots", shot.file))).toBe(true);
+    }
+    expect(home.match(/class="shot-strip"/g)?.length).toBe(1);
+    expect(home).toContain("Screenshots show sample data.");
+  });
+
+  it("drops the old sections", () => {
+    for (const id of ["bank", "anatomy", "how", "who", "origin", "faq", "next"]) expect(home).not.toContain(`id="${id}"`);
   });
 
   it("has no em dashes, en dashes, or the personal site domain", () => {

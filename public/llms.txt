@@ -1,15 +1,14 @@
 # Looper
 
-> Looper keeps each recurring AI agent job in one Markdown spec, scores every run, and shows all loops and their latest scores on one screen. Rex St. John is building it to run his own loops. It is in development: there is no sign-up, no pricing and no public release.
+> Looper is a dashboard for agentic processes and workflows that run on a schedule. Set up and see your looping, scheduled processes, the steps that power each one, and the KPIs that move it toward its objectives. Each loop is described in one Markdown spec. The code is open source on GitHub.
 
 ## Pages
 
-- [Looper home](/): what Looper does, the bank view (example data), the parts of a loop spec, what happens on each run (run, eval, learn, rewrite the spec), who it is for, and its status.
-- [Loop spec format](/spec): draft 0.1 of the loop file format. Front matter fields, the nine sections (Objective, Evals, Sources and instructions, Quality control, Macros and recursion, Learning, Schedule, Roadmap, OKRs), rules for self-rewrites, and a full example.
+- [Looper home](/): what Looper does, with screenshots of the dashboard, a loop page, spec and goals, and one-offs (sample data).
+- [Loop spec format](/spec): the loop file format. Front matter fields, the sections of a spec, rules for self-rewrites, and a full example.
+- [GitHub](https://github.com/Verafyai/looper): the code, setup and data format.
 
 ## Facts
 
 - Author: Rex St. John
-- Status: in development, built for the author's own use
-- The bank table on the home page uses example data, not real runs.
-- The author writes the specs and decides what ships. AI agents write much of the code and the first drafts, and the author reviews them.
+- The screenshots on the home page use sample data, not real runs.
