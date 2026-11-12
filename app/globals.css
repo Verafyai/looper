@@ -713,24 +713,13 @@ button.tile { width: 100%; }
   max-width: 18ch;
 }
 
-.status-line { color: #5CD68C; font-size: 14px; font-weight: 700; }
 
 .block { border-radius: 16px; padding: 18px 16px; margin: 16px 0; min-width: 0; }
 .block h2 { font-size: 28px; font-weight: 750; letter-spacing: -0.03em; margin-bottom: 8px; }
-.block h3, .feature h3, .faq dt { font-size: 16px; font-weight: 700; margin: 0 0 4px; }
-.block p, .feature p, .faq dd, .parts p { color: #C3CCD6; font-size: 15px; }
-.faq { margin: 0; }
-.faq dt { margin-top: 14px; }
-.faq dd { margin: 0; }
+.block h3 { font-size: 16px; font-weight: 700; margin: 0 0 4px; }
+.block p { color: #C3CCD6; font-size: 15px; }
 
-.product-stack { display: grid; gap: 16px; margin-top: 16px; }
-.product-visual { border-radius: 16px; padding: 14px; min-width: 0; max-width: 100%; }
-.visual-frame { min-width: 0; max-width: 100%; overflow: hidden; }
 
-.anatomy, .grid2, .cycle { display: grid; gap: 12px; }
-.cycle, .parts { list-style: none; padding: 0; margin: 12px 0; }
-.cycle li, .feature { border-radius: 14px; padding: 14px; min-width: 0; }
-.parts li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 8px; margin: 10px 0; }
 .part-n { color: #5CD68C; font-size: 13px; font-weight: 700; }
 
 .spec-code, code {
@@ -776,12 +765,34 @@ button.tile { width: 100%; }
 .footer-links a { color: #C3CCD6; text-decoration: none; }
 .brand img { width: 28px; height: 28px; display: block; }
 
+.hero-lede { font-size: 17px; max-width: 46rem; margin-bottom: 16px; }
+
+.shots { margin: 28px 0 8px; min-width: 0; }
+.shot-strip {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 12px;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+}
+.shot { flex: 0 0 auto; scroll-snap-align: start; width: min(720px, 86vw); display: grid; gap: 8px; }
+.shot-phone { width: min(220px, 52vw); }
+.shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #222B36;
+  border-radius: 12px;
+  background: #07090C;
+}
+.shot-caption { color: #C3CCD6; font-size: 14px; font-weight: 600; }
+
 @media (min-width: 768px) {
   .hero-title { font-size: 52px; }
   .block { padding: 22px 22px; }
-  .grid2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .cycle { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .anatomy { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
   .site-footer { padding-left: 24px; padding-right: 24px; }
 }
 
